@@ -174,7 +174,7 @@ print(mx.asnumpy(out))
 
      * [***Dynamic Routing Between Capsules : Capsule Network using Module.API***](https://github.com/JONGGON/Mxnet_Tutorial/tree/master/Symbol/applications/CapsuleNet_Module)
 
-    * [***Variational Autoencoder : Using MNIST data***](https://github.com/JONGGON/Mxnet_Tutorial/tree/master/Symbol/applications/)
+    * [***Variational Autoencoder : Using MNIST data***](https://github.com/JONGGON/Mxnet_Tutorial/tree/master/Symbol/applications/Variational%20Autoencoder)
     
 * ### ***How to Create New Operators for Symbolic? - Advanced***
     * #### [References Page : It is insufficient.](https://mxnet.incubator.apache.org/how_to/new_op.html) 
