@@ -1,0 +1,105 @@
+{
+  "nodes": [
+    {
+      "op": "null", 
+      "name": "data", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "FNN_fc1_weight", 
+      "attrs": {"num_hidden": "50"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "FNN_fc1_bias", 
+      "attrs": {"num_hidden": "50"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "FNN_fc1", 
+      "attrs": {"num_hidden": "50"}, 
+      "inputs": [[0, 0, 0], [1, 0, 0], [2, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "FNN_sigmoid1", 
+      "attrs": {"act_type": "sigmoid"}, 
+      "inputs": [[3, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "FNN_fc2_weight", 
+      "attrs": {"num_hidden": "50"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "FNN_fc2_bias", 
+      "attrs": {"num_hidden": "50"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "FNN_fc2", 
+      "attrs": {"num_hidden": "50"}, 
+      "inputs": [[4, 0, 0], [5, 0, 0], [6, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "FNN_sigmoid2", 
+      "attrs": {"act_type": "sigmoid"}, 
+      "inputs": [[7, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "FNN_fc3_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "FNN_fc3_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "FNN_fc3", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[8, 0, 0], [9, 0, 0], [10, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "label", 
+      "inputs": []
+    }, 
+    {
+      "op": "LogisticRegressionOutput", 
+      "name": "logisticregressionoutput0", 
+      "inputs": [[11, 0, 0], [12, 0, 0]]
+    }
+  ], 
+  "arg_nodes": [0, 1, 2, 5, 6, 9, 10, 12], 
+  "node_row_ptr": [
+    0, 
+    1, 
+    2, 
+    3, 
+    4, 
+    5, 
+    6, 
+    7, 
+    8, 
+    9, 
+    10, 
+    11, 
+    12, 
+    13, 
+    14
+  ], 
+  "heads": [[13, 0, 0]], 
+  "attrs": {"mxnet_version": ["int", 1201]}
+}

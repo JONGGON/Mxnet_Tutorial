@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98af8fd4-0bfc-4f1f-a547-e1caca744b88" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GRU.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GRU.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2714">
+              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LSTM.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LSTM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2645">
+              <caret line="121" column="64" lean-forward="false" selection-start-line="121" selection-start-column="64" selection-end-line="121" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RNN.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>call</find>
+      <find>ctx</find>
+      <find>cpu</find>
+      <find>__all__</find>
+      <find>num_hidden</find>
+      <find>train</find>
+      <find>self._train</find>
+      <find>layout</find>
+      <find>self._layout</find>
+      <find>unroll</find>
+      <find>_cells_begin_state</find>
+      <find>begin_state</find>
+      <find>hybrid_forward</find>
+      <find>_reg_params</find>
+      <find>self._reg_param</find>
+      <find>self._reg_params</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/data_preprocessing.py" />
+        <option value="$PROJECT_DIR$/../Convolution_Neural_Network_with_NDArray/model.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/LASTM.py" />
+        <option value="$PROJECT_DIR$/../../NDArray/Recurrent_Neural_Network_with_NDArray/main.py" />
+        <option value="$PROJECT_DIR$/stock.py" />
+        <option value="C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/rnn/rnn_cell.py" />
+        <option value="C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/block.py" />
+        <option value="$PROJECT_DIR$/GRU.py" />
+        <option value="$PROJECT_DIR$/RNN.py" />
+        <option value="$PROJECT_DIR$/LSTM.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="783" />
+    <option name="y" value="20" />
+    <option name="width" value="1000" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Recurrent_Neural_Network_with_Gluon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recurrent_Neural_Network_with_Gluon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Recurrent_Neural_Network_with_Gluon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Recurrent_Neural_Network_with_Gluon" type="462c0819:PsiDirectoryNode" />
+              <item name="weights" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FNN_with_Gluon" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FNN_with_Gluon" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FNN_with_Gluon" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FNN_with_Gluon" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FNN_with_Gluon" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FNN_with_Gluon" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98af8fd4-0bfc-4f1f-a547-e1caca744b88" name="Default" comment="" />
+      <created>1503897436122</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1503897436122</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18697916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40365112" sideWeight="0.38346884" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29374337" sideWeight="0.6165312" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39721626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/data/__init__.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/rnn/__init__.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/gluon/__init__.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/gluon/data/sampler.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/gluon/nn/conv_layers.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/gluon/nn/__init__.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/gluon/parameter.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/gluon/block.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/autograd.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/gluon/trainer.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/optimizer.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/gluon/data/dataloader.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/gluon/nn/basic_layers.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/gluon/data/vision.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/ndarray.py" />
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/mxnet-0.11.0-py3.5.egg/mxnet/gluon/loss.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP0_/vision.py" />
+    <entry file="file://$PROJECT_DIR$/../Convolution_Neural_Network_with_NDArray/model.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/scipy/optimize/tests/test_optimize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.11.1-py3.6.egg/mxnet/ndarray/ndarray.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/optimizer.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/autograd.py" />
+    <entry file="file://$USER_HOME$/Gluon/NeuralStyle/model.py" />
+    <entry file="file://$USER_HOME$/Gluon/NeuralStyle/VGG.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/data/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/model.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/_ctypes/ndarray.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-313451744/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1358">
+          <caret line="112" column="4" lean-forward="false" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tqdm/_tqdm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="653" column="8" lean-forward="false" selection-start-line="653" selection-start-column="8" selection-end-line="653" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/autograd.py" />
+    <entry file="file://$PROJECT_DIR$/LASTM.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/ndarray/ndarray.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/data/vision.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/optimizer.py" />
+    <entry file="file://$PROJECT_DIR$/../../NDArray/Recurrent_Neural_Network_with_NDArray/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/ndarray/gen_op.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/trainer.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/base.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/loss.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/ndarray/utils.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/initializer.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/rnn/rnn_layer.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/nn/basic_layers.py" />
+    <entry file="file://$PROJECT_DIR$/stock.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/rnn/__init__.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-313451744/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="186" column="4" lean-forward="false" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2645">
+          <caret line="121" column="64" lean-forward="false" selection-start-line="121" selection-start-column="64" selection-end-line="121" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/rnn/rnn_cell.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/parameter.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/gluon/block.py" />
+    <entry file="file://$PROJECT_DIR$/RNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GRU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2714">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

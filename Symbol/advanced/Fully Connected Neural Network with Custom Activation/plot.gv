@@ -1,0 +1,17 @@
+digraph plot {
+	data [label=data fillcolor="#8dd3c7" fixedsize=true height=0.8034 shape=oval style=filled width=1.3]
+	fc1 [label="FullyConnected\n50" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	sigmoid1 [label="Activation\nsigmoid" fillcolor="#ffffb3" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	fc2 [label="FullyConnected\n50" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	relu [label=Activation fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	fc3 [label="FullyConnected\n10" fillcolor="#fb8072" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	one_hot_label [label=one_hot_label fillcolor="#8dd3c7" fixedsize=true height=0.8034 shape=oval style=filled width=1.3]
+	Softmax [label=SoftmaxOutput fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	fc1 -> data [label=784 arrowtail=open dir=back]
+	sigmoid1 -> fc1 [label=50 arrowtail=open dir=back]
+	fc2 -> sigmoid1 [label=50 arrowtail=open dir=back]
+	relu -> fc2 [label=50 arrowtail=open dir=back]
+	fc3 -> relu [label=50 arrowtail=open dir=back]
+	Softmax -> fc3 [label=10 arrowtail=open dir=back]
+	Softmax -> one_hot_label [label=10 arrowtail=open dir=back]
+}

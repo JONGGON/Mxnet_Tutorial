@@ -1,0 +1,444 @@
+{
+  "nodes": [
+    {
+      "op": "null", 
+      "name": "data", 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_convolution0_weight", 
+      "attrs": {
+        "kernel": "(5, 5)", 
+        "num_filter": "30"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_convolution0_bias", 
+      "attrs": {
+        "kernel": "(5, 5)", 
+        "num_filter": "30"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "CNN_convolution0", 
+      "attrs": {
+        "kernel": "(5, 5)", 
+        "num_filter": "30"
+      }, 
+      "inputs": [[0, 0, 0], [1, 0, 0], [2, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm0_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm0_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm0_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm0_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "CNN_batchnorm0", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": [[3, 0, 0], [4, 0, 0], [5, 0, 0], [6, 0, 1], [7, 0, 1]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "CNN_relu_c1", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[8, 0, 0]]
+    }, 
+    {
+      "op": "Pooling", 
+      "name": "CNN_pooling0", 
+      "attrs": {
+        "kernel": "(2, 2)", 
+        "pool_type": "max", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": [[9, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_convolution1_weight", 
+      "attrs": {
+        "kernel": "(5, 5)", 
+        "num_filter": "60"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_convolution1_bias", 
+      "attrs": {
+        "kernel": "(5, 5)", 
+        "num_filter": "60"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "Convolution", 
+      "name": "CNN_convolution1", 
+      "attrs": {
+        "kernel": "(5, 5)", 
+        "num_filter": "60"
+      }, 
+      "inputs": [[10, 0, 0], [11, 0, 0], [12, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm1_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm1_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm1_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm1_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "CNN_batchnorm1", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": [[13, 0, 0], [14, 0, 0], [15, 0, 0], [16, 0, 1], [17, 0, 1]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "CNN_relu_c2", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[18, 0, 0]]
+    }, 
+    {
+      "op": "Pooling", 
+      "name": "CNN_pooling1", 
+      "attrs": {
+        "kernel": "(2, 2)", 
+        "pool_type": "max", 
+        "stride": "(2, 2)"
+      }, 
+      "inputs": [[19, 0, 0]]
+    }, 
+    {
+      "op": "Flatten", 
+      "name": "CNN_flatten0", 
+      "inputs": [[20, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_fc1_weight", 
+      "attrs": {"num_hidden": "50"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_fc1_bias", 
+      "attrs": {"num_hidden": "50"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "CNN_fc1", 
+      "attrs": {"num_hidden": "50"}, 
+      "inputs": [[21, 0, 0], [22, 0, 0], [23, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm2_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm2_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm2_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm2_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "CNN_batchnorm2", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": [[24, 0, 0], [25, 0, 0], [26, 0, 0], [27, 0, 1], [28, 0, 1]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "CNN_relu_f1", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[29, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_fc2_weight", 
+      "attrs": {"num_hidden": "50"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_fc2_bias", 
+      "attrs": {"num_hidden": "50"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "CNN_fc2", 
+      "attrs": {"num_hidden": "50"}, 
+      "inputs": [[30, 0, 0], [31, 0, 0], [32, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm3_gamma", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm3_beta", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm3_moving_mean", 
+      "attrs": {
+        "__init__": "[\"zero\", {}]", 
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_batchnorm3_moving_var", 
+      "attrs": {
+        "__init__": "[\"one\", {}]", 
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "BatchNorm", 
+      "name": "CNN_batchnorm3", 
+      "attrs": {
+        "fix_gamma": "False", 
+        "use_global_stats": "True"
+      }, 
+      "inputs": [[33, 0, 0], [34, 0, 0], [35, 0, 0], [36, 0, 1], [37, 0, 1]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "CNN_relu_f2", 
+      "attrs": {"act_type": "relu"}, 
+      "inputs": [[38, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_fc3_weight", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "CNN_fc3_bias", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "CNN_fc3", 
+      "attrs": {"num_hidden": "10"}, 
+      "inputs": [[39, 0, 0], [40, 0, 0], [41, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "label", 
+      "inputs": []
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "name": "softmaxoutput0", 
+      "inputs": [[42, 0, 0], [43, 0, 0]]
+    }
+  ], 
+  "arg_nodes": [
+    0, 
+    1, 
+    2, 
+    4, 
+    5, 
+    6, 
+    7, 
+    11, 
+    12, 
+    14, 
+    15, 
+    16, 
+    17, 
+    22, 
+    23, 
+    25, 
+    26, 
+    27, 
+    28, 
+    31, 
+    32, 
+    34, 
+    35, 
+    36, 
+    37, 
+    40, 
+    41, 
+    43
+  ], 
+  "node_row_ptr": [
+    0, 
+    1, 
+    2, 
+    3, 
+    4, 
+    5, 
+    6, 
+    7, 
+    8, 
+    11, 
+    12, 
+    13, 
+    14, 
+    15, 
+    16, 
+    17, 
+    18, 
+    19, 
+    20, 
+    23, 
+    24, 
+    25, 
+    26, 
+    27, 
+    28, 
+    29, 
+    30, 
+    31, 
+    32, 
+    33, 
+    36, 
+    37, 
+    38, 
+    39, 
+    40, 
+    41, 
+    42, 
+    43, 
+    44, 
+    47, 
+    48, 
+    49, 
+    50, 
+    51, 
+    52, 
+    53
+  ], 
+  "heads": [[44, 0, 0]], 
+  "attrs": {"mxnet_version": ["int", 1201]}
+}

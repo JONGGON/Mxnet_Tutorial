@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a918e4b-4cc2-470c-b6b6-2468702b83fc" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="135" column="20" lean-forward="false" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#2582#5847#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="algorithm1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2185">
+              <caret line="118" column="39" lean-forward="false" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
+              <folding>
+                <element signature="e#71#89#0" expanded="true" />
+                <element signature="e#4780#5913#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="algorithm2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4531">
+              <caret line="197" column="13" lean-forward="false" selection-start-line="197" selection-start-column="13" selection-end-line="197" selection-end-column="13" />
+              <folding>
+                <element signature="e#79#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Artistic Image.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Artistic Image.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_preprocessing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_preprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>adam</find>
+      <find>sgd</find>
+      <find>self.weight_previous</find>
+      <find>noise</find>
+      <find>self._arg_dict</find>
+      <find>self._grad_req</find>
+      <find>grad_req</find>
+      <find>handle</find>
+      <find>reqs_array</find>
+      <find>self.handle</find>
+      <find>self._grad_dict</find>
+      <find>self.grad_arrays</find>
+      <find>self._get_outputs()</find>
+      <find>self.outputs</find>
+      <find>arg_names</find>
+      <find>args</find>
+      <find>_get_dict</find>
+      <find>get</find>
+      <find>get_dict</find>
+      <find>self._symbol.list_arguments()</find>
+      <find>self._symbol</find>
+      <find>args_grad</find>
+      <find>mean</find>
+      <find>grad_array</find>
+      <find>view</find>
+      <find>total_cost</find>
+      <find>noise_image</find>
+      <find>self.grad_arrays</find>
+      <find>forward</find>
+      <find>backward</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DataPreprocessing.py" />
+        <option value="$PROJECT_DIR$/VGG19.py" />
+        <option value="$PROJECT_DIR$/Algorithm.py" />
+        <option value="$PROJECT_DIR$/datapreprocessing.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing.py" />
+        <option value="$PROJECT_DIR$/algorithm.py" />
+        <option value="$PROJECT_DIR$/style/algorithm1.py" />
+        <option value="$PROJECT_DIR$/algorithm2.py" />
+        <option value="$PROJECT_DIR$/algorithm1.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="375" />
+    <option name="y" value="185" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NeuralStyle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeuralStyle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NeuralStyle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeuralStyle" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NeuralStyle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeuralStyle" type="462c0819:PsiDirectoryNode" />
+              <item name="reference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NeuralStyle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NeuralStyle" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JG\Desktop\NeuralStyle" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="VGG19" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NeuralStyle" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/VGG19.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NeuralStyle" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="algorithm2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NeuralStyle" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NeuralStyle" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NeuralStyle" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.model" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.VGG19" />
+      <item index="3" class="java.lang.String" itemvalue="Python.algorithm" />
+      <item index="4" class="java.lang.String" itemvalue="Python.algorithm2" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.algorithm" />
+        <item index="2" class="java.lang.String" itemvalue="Python.algorithm2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.VGG19" />
+        <item index="4" class="java.lang.String" itemvalue="Python.model" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a918e4b-4cc2-470c-b6b6-2468702b83fc" name="Default" comment="" />
+      <created>1509490640826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509490640826</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30905077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algorithm2.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-313451744/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/../../../Gluon/Autoencoder_Neural_Network_with_Gluon/model.py" />
+    <entry file="file://$PROJECT_DIR$/../../../Gluon/Autoencoder_Neural_Network_with_Gluon/main.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/gluon/nn/basic_layers.py" />
+    <entry file="file://$PROJECT_DIR$/../../../Gluon/Convolution_Neural_Network_BN_with_Gluon/main.py" />
+    <entry file="file://$PROJECT_DIR$/../../../Gluon/Convolution_Neural_Network_BN_with_Gluon/model.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/module/module.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/module/sequential_module.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/operator.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/module/executor_group.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/ctypes/__init__.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/base.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/symbol/gen_op.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/symbol/symbol.py" />
+    <entry file="file://$PROJECT_DIR$/content/tiger.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/picasso.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/ndarray/utils.py" />
+    <entry file="file://$PROJECT_DIR$/VGG19.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/optimizer.py" />
+    <entry file="file://$PROJECT_DIR$/DataPreprocessing.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/executor.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/visualization.py" />
+    <entry file="jar://C:/ProgramData/Anaconda3/Lib/site-packages/graphviz-0.8-py3.6.egg!/graphviz/files.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/ntpath.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/ndarray/ndarray.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/cv2/__init__.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/ndarray/ndarray.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/operator.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/ndarray/gen_op.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/base.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/optimizer.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/executor.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/symbol/symbol.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/mxnet-0.12.0-py3.6.egg/mxnet/symbol/gen_op.py" />
+    <entry file="file://C:/Deephuman/DeepHumanPrediction/Code/Master_Thesis/Presentation/motion_video/bvh_writer.py" />
+    <entry file="file://C:/Deephuman/DeepHumanPrediction/Code/Master_Thesis/Presentation/motion_video/bvh_reader.py" />
+    <entry file="file://$PROJECT_DIR$/../Deep Convolution Generative Adversarial Network/data_download_ImageNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="53" column="31" lean-forward="false" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/woongsik.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/mygirl.jpg" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.12.1-py3.6.egg/mxnet/executor.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="118" column="39" lean-forward="false" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
+          <folding>
+            <element signature="e#71#89#0" expanded="true" />
+            <element signature="e#4780#5913#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-1.0.0-py3.6.egg/mxnet/ndarray/gen_op.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1284">
+          <caret line="2738" column="4" lean-forward="false" selection-start-line="2738" selection-start-column="4" selection-end-line="2738" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-1.0.0-py3.6.egg/mxnet/optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="733" column="12" lean-forward="false" selection-start-line="733" selection-start-column="12" selection-end-line="733" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4531">
+          <caret line="197" column="13" lean-forward="false" selection-start-line="197" selection-start-column="13" selection-end-line="197" selection-end-column="13" />
+          <folding>
+            <element signature="e#79#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/rain_princess.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/la_muse.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="135" column="20" lean-forward="false" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#2582#5847#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Artistic Image.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+  </component>
+</project>

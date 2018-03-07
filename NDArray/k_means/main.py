@@ -1,0 +1,1 @@
+import mxnet as mxusing_mxnet=Trueif using_mxnet:    import kmeans    kmeans.K_means_Algorithm(epoch=5000,centroid_numbers=10,point_numbers=5000,ctx=mx.gpu(0))else:    import kmeans_numpy    kmeans_numpy.K_means_Algorithm_numpy(epoch=5000,centroid_numbers=10,point_numbers=5000)

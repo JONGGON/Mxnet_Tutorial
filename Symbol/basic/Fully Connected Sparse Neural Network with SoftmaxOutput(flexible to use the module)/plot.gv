@@ -1,0 +1,17 @@
+digraph plot {
+	data [label=data fillcolor="#8dd3c7" fixedsize=true height=0.8034 shape=oval style=filled width=1.3]
+	Sparse_FNN_dot0 [label=Sparse_FNN_dot0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	Sparse_FNN_broadcast_add0 [label=Sparse_FNN_broadcast_add0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	Sparse_FNN_relu0 [label=Sparse_FNN_relu0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	Sparse_FNN_dot1 [label=Sparse_FNN_dot1 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	Sparse_FNN_broadcast_add1 [label=Sparse_FNN_broadcast_add1 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	label [label=label fillcolor="#8dd3c7" fixedsize=true height=0.8034 shape=oval style=filled width=1.3]
+	softmaxoutput0 [label=softmaxoutput0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	Sparse_FNN_dot0 -> data [label=784 arrowtail=open dir=back]
+	Sparse_FNN_broadcast_add0 -> Sparse_FNN_dot0 [label=100 arrowtail=open dir=back]
+	Sparse_FNN_relu0 -> Sparse_FNN_broadcast_add0 [label=100 arrowtail=open dir=back]
+	Sparse_FNN_dot1 -> Sparse_FNN_relu0 [label=100 arrowtail=open dir=back]
+	Sparse_FNN_broadcast_add1 -> Sparse_FNN_dot1 [label=10 arrowtail=open dir=back]
+	softmaxoutput0 -> Sparse_FNN_broadcast_add1 [label=10 arrowtail=open dir=back]
+	softmaxoutput0 -> label [label="" arrowtail=open dir=back]
+}

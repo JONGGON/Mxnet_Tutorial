@@ -1,0 +1,17 @@
+digraph plot {
+	data [label=data fillcolor="#8dd3c7" fixedsize=true height=0.8034 shape=oval style=filled width=1.3]
+	k_expand_dims0 [label=k_expand_dims0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	centroid [label=centroid fillcolor="#8dd3c7" fixedsize=true height=0.8034 shape=oval style=filled width=1.3]
+	k_expand_dims1 [label=k_expand_dims1 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	k_broadcast_sub0 [label=k_broadcast_sub0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	k_square0 [label=k_square0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	k_sum0 [label=k_sum0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	k_argmin0 [label=k_argmin0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	k_expand_dims0 -> data [label=2 arrowtail=open dir=back]
+	k_expand_dims1 -> centroid [label=2 arrowtail=open dir=back]
+	k_broadcast_sub0 -> k_expand_dims0 [label="5000x2" arrowtail=open dir=back]
+	k_broadcast_sub0 -> k_expand_dims1 [label="1x2" arrowtail=open dir=back]
+	k_square0 -> k_broadcast_sub0 [label="5000x2" arrowtail=open dir=back]
+	k_sum0 -> k_square0 [label="5000x2" arrowtail=open dir=back]
+	k_argmin0 -> k_sum0 [label=5000 arrowtail=open dir=back]
+}

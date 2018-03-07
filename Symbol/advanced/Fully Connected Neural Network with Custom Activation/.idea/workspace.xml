@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73bcfa13-00f5-4303-bba5-950aa867b1b2" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Network.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Network.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="214" column="71" lean-forward="false" selection-start-line="214" selection-start-column="71" selection-end-line="214" selection-end-column="71" />
+              <folding>
+                <element signature="e#24#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_download.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_download.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="38" column="55" lean-forward="false" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+              <folding>
+                <element signature="e#24#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Logist</find>
+      <find>LogisticRegressionOutput</find>
+      <find>BatchEndParam</find>
+      <find>back</find>
+      <find>fit</find>
+      <find>update_metric</find>
+      <find>self._symbol</find>
+      <find>label_names</find>
+      <find>self._label_names</find>
+      <find>num_epoch</find>
+      <find>eval_metric</find>
+      <find>sym</find>
+      <find>optimizer</find>
+      <find>onehot</find>
+      <find>one_hot</find>
+      <find>winreg.EnumValue</find>
+      <find>custo</find>
+      <find>list_arguments</find>
+      <find>data</find>
+      <find>declare_backward_dependency</find>
+      <find>label</find>
+      <find>self.need_top_grad_</find>
+      <find>initializer</find>
+      <find>arr</find>
+      <find>opt_registry</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/AppData/Local/Temp/_AZTMP1_/Sensor_TO_RGB.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/_AZTMP10_/Sensor_TO_RGB.py" />
+        <option value="$PROJECT_DIR$/algorithm.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/_AZTMP1_/data_processing.py" />
+        <option value="$PROJECT_DIR$/data_preprocessing.py" />
+        <option value="C:/WinPython-64bit-3.5.3.0Qt5/python-3.5.3.amd64/Lib/site-packages/matplotlib/font_manager.py" />
+        <option value="C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/metric.py" />
+        <option value="C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/base_module.py" />
+        <option value="$PROJECT_DIR$/../Lotto_prediction/data_preprocessing.py" />
+        <option value="$PROJECT_DIR$/data_download.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Network.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-663" />
+    <option name="y" value="705" />
+    <option name="width" value="1932" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Fully Connected Neural Network with Custom Activation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fully Connected Neural Network with Custom Activation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Fully Connected Neural Network with Custom Activation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Fully Connected Neural Network with Custom Activation" type="462c0819:PsiDirectoryNode" />
+              <item name="weights" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="Network" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lotto_prediction" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lotto_prediction" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lotto_prediction" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lotto_prediction" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lotto_prediction" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lotto_prediction" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lotto_prediction" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lotto_prediction" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration name="algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lotto_prediction" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="data_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lotto_prediction" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_download.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="data_preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lotto_prediction" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_preprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lotto_prediction" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.algorithm" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.data_preprocessing" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Network" />
+      <item index="4" class="java.lang.String" itemvalue="Python.data_download" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Network" />
+        <item index="2" class="java.lang.String" itemvalue="Python.data_preprocessing" />
+        <item index="3" class="java.lang.String" itemvalue="Python.data_download" />
+        <item index="4" class="java.lang.String" itemvalue="Python.algorithm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73bcfa13-00f5-4303-bba5-950aa867b1b2" name="Default" comment="" />
+      <created>1491373867609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1491373867609</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-663" y="705" width="1932" height="1056" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10594989" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32873806" sideWeight="0.41283923" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.58716077" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19164883" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/model.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP3_/Implement.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP2_/Mnist.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP7_/Sensor_To_RGB.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP6_/Mnist.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP1_/Sensor_To_RGB.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP5_/Implement.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP8_/Sensor_To_RGB.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP9_/Sensor_TO_RGB.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP10_/Sensor_To_RGB.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP9_/Implement.py" />
+    <entry file="file://$PROJECT_DIR$/algorithm.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP11_/data_processing.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/_AZTMP1_/data_processing.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/visualization.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/ctypes/__init__.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-1415496879/exceptions.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/executor_group.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/_ctypes/symbol.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/symbol.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/callback.py" />
+    <entry file="file://$PROJECT_DIR$/data_preprocessing.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/struct.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/_ndarray_internal.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/_ctypes/ndarray.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/base.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-1415496879/numpy/core/multiarray.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/ndarray.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/io.NDArrayIter.url" />
+    <entry file="file://C:/WinPython-64bit-3.5.3.0Qt5/python-3.5.3.amd64/Lib/site-packages/matplotlib/font_manager.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/initializer.py" />
+    <entry file="file://$PROJECT_DIR$/../Lotto_prediction/Network.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/optimizer.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/module.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/model.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/io.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/metric.py" />
+    <entry file="file://$PROJECT_DIR$/../Lotto_prediction/main.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/base_module.py" />
+    <entry file="file://$PROJECT_DIR$/../Lotto_prediction/data_preprocessing.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.11.1-py3.6.egg/mxnet/symbol/symbol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="992" column="70" lean-forward="false" selection-start-line="992" selection-start-column="70" selection-end-line="992" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.11.1-py3.6.egg/mxnet/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="484" column="4" lean-forward="false" selection-start-line="484" selection-start-column="4" selection-end-line="484" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.11.1-py3.6.egg/mxnet/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.11.1-py3.6.egg/mxnet/visualization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="251" column="50" lean-forward="true" selection-start-line="251" selection-start-column="50" selection-end-line="251" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.11.1-py3.6.egg/mxnet/operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="414" column="0" lean-forward="false" selection-start-line="414" selection-start-column="0" selection-end-line="415" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.11.1-py3.6.egg/mxnet/initializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="393" column="23" lean-forward="true" selection-start-line="393" selection-start-column="23" selection-end-line="393" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.11.1-py3.6.egg/mxnet/optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="945" column="8" lean-forward="false" selection-start-line="945" selection-start-column="8" selection-end-line="945" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="38" column="55" lean-forward="false" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/mxnet-0.11.1-py3.6.egg/mxnet/module/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4547">
+          <caret line="277" column="30" lean-forward="false" selection-start-line="277" selection-start-column="30" selection-end-line="277" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="214" column="71" lean-forward="false" selection-start-line="214" selection-start-column="71" selection-end-line="214" selection-end-column="71" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

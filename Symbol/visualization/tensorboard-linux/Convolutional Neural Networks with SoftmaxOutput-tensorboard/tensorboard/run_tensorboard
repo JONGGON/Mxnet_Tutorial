@@ -1,0 +1,11 @@
+'''run the tensorboard'''
+
+
+1.  Open the image at this location.
+
+
+2.  Write the following 'script' in a terminal window.
+	  
+    - tensorboard --logdir=tensorboard --logdir=./ --port=6006
+
+

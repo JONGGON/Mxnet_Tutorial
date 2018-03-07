@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://localhost:8889/notebooks/Untitled.ipynb -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <title>Untitled</title>
+    <link rel="shortcut icon" type="image/x-icon" href="http://localhost:8889/static/base/images/favicon.ico?v=30780f272ab4aac64aa073a841546240">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./Untitled_files/jquery-ui.min.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+
+
+<script type="text/javascript" src="./Untitled_files/MathJax.js.다운로드" charset="utf-8"></script>
+
+<script type="text/javascript">
+// MathJax disabled, set as null to distingish from *missing* MathJax,
+// where it will be undefined, and should prompt a dialog later.
+window.mathjax_url = "/static/components/MathJax/MathJax.js";
+</script>
+
+<link rel="stylesheet" href="./Untitled_files/bootstrap-tour.min.css" type="text/css">
+<link rel="stylesheet" href="./Untitled_files/codemirror.css">
+
+
+    <link rel="stylesheet" href="./Untitled_files/style.min.css" type="text/css">
+    
+
+<link rel="stylesheet" href="./Untitled_files/override.css" type="text/css">
+<link rel="stylesheet" href="http://localhost:8889/notebooks/Untitled.ipynb" id="kernel-css" type="text/css">
+
+
+    <link rel="stylesheet" href="./Untitled_files/custom.css" type="text/css">
+    <script src="./Untitled_files/promise.min.js.다운로드" type="text/javascript" charset="utf-8"></script>
+    <script src="./Untitled_files/require.js.다운로드" type="text/javascript" charset="utf-8"></script>
+    <script>
+      require.config({
+          
+          urlArgs: "v=20170509215513",
+          
+          baseUrl: '/static/',
+          paths: {
+            'auth/js/main': 'auth/js/main.min',
+            custom : '/custom',
+            nbextensions : '/nbextensions',
+            widgets : '/deprecatedwidgets',
+            kernelspecs : '/kernelspecs',
+            underscore : 'components/underscore/underscore-min',
+            backbone : 'components/backbone/backbone-min',
+            jquery: 'components/jquery/jquery.min',
+            bootstrap: 'components/bootstrap/js/bootstrap.min',
+            bootstraptour: 'components/bootstrap-tour/build/js/bootstrap-tour.min',
+            jqueryui: 'components/jquery-ui/ui/minified/jquery-ui.min',
+            moment: 'components/moment/moment',
+            codemirror: 'components/codemirror',
+            termjs: 'components/term.js/src/term',
+          },
+          shim: {
+            underscore: {
+              exports: '_'
+            },
+            backbone: {
+              deps: ["underscore", "jquery"],
+              exports: "Backbone"
+            },
+            bootstrap: {
+              deps: ["jquery"],
+              exports: "bootstrap"
+            },
+            bootstraptour: {
+              deps: ["bootstrap"],
+              exports: "Tour"
+            },
+            jqueryui: {
+              deps: ["jquery"],
+              exports: "$"
+            }
+          }
+      });
+
+      require.config({
+          map: {
+              '*':{
+                'contents': 'services/contents',
+              }
+          }
+      });
+    </script>
+
+    
+    
+
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="services/contents" src="./Untitled_files/contents.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="custom/custom" src="./Untitled_files/custom.js.다운로드"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">.MathJax_Preview .MJXc-math {color: inherit!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/notebook/js/extension" src="./Untitled_files/extension.js.다운로드"></script><style type="text/css">.MJXc-script {font-size: .8em}
+.MJXc-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXc-bold {font-weight: bold}
+.MJXc-italic {font-style: italic}
+.MJXc-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXc-largeop {font-size: 150%}
+.MJXc-largeop.MJXc-int {vertical-align: -.2em}
+.MJXc-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXc-display {display: block; text-align: center; margin: 1em 0}
+.MJXc-math span {display: inline-block}
+.MJXc-box {display: block!important; text-align: center}
+.MJXc-box:after {content: " "}
+.MJXc-rule {display: block!important; margin-top: .1em}
+.MJXc-char {display: block!important}
+.MJXc-mo {margin: 0 .15em}
+.MJXc-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXc-denom {display: inline-table!important; width: 100%}
+.MJXc-denom > * {display: table-row!important}
+.MJXc-surd {vertical-align: top}
+.MJXc-surd > * {display: block!important}
+.MJXc-script-box > *  {display: table!important; height: 50%}
+.MJXc-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXc-script-box > *:last-child > * {vertical-align: bottom}
+.MJXc-script-box > * > * > * {display: block!important}
+.MJXc-mphantom {visibility: hidden}
+.MJXc-munderover {display: inline-table!important}
+.MJXc-over {display: inline-block!important; text-align: center}
+.MJXc-over > * {display: block!important}
+.MJXc-munderover > * {display: table-row!important}
+.MJXc-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXc-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXc-mtr {display: table-row!important}
+.MJXc-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXc-mtr > .MJXc-mtd:first-child {padding-left: 0}
+.MJXc-mtr:first-child > .MJXc-mtd {padding-top: 0}
+.MJXc-mlabeledtr {display: table-row!important}
+.MJXc-mlabeledtr > .MJXc-mtd:first-child {padding-left: 0}
+.MJXc-mlabeledtr:first-child > .MJXc-mtd {padding-top: 0}
+.MJXc-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXc-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXc-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXc-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXc-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXc-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXc-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXc-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXc-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXc-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXc-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_CHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/init" src="./Untitled_files/init.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/notebook/js/widgetarea" src="./Untitled_files/widgetarea.js.다운로드"></script><style type="text/css">.MathJax_Display {text-align: center; margin: 0; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block!important; overflow: hidden; width: 1px; height: 60ex; min-height: 0; max-height: none}
+.MathJax .MathJax_EmBox {display: block!important; overflow: hidden; width: 1px; height: 60em; min-height: 0; max-height: none}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/manager" src="./Untitled_files/manager.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget" src="./Untitled_files/widget.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_link" src="./Untitled_files/widget_link.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_bool" src="./Untitled_files/widget_bool.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_button" src="./Untitled_files/widget_button.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_box" src="./Untitled_files/widget_box.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_float" src="./Untitled_files/widget_float.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_image" src="./Untitled_files/widget_image.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_int" src="./Untitled_files/widget_int.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_color" src="./Untitled_files/widget_color.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_output" src="./Untitled_files/widget_output.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_selection" src="./Untitled_files/widget_selection.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_selectioncontainer" src="./Untitled_files/widget_selectioncontainer.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_string" src="./Untitled_files/widget_string.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nbextensions/widgets/widgets/js/widget_controller" src="./Untitled_files/widget_controller.js.다운로드"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="backbone" src="./Untitled_files/backbone-min.js.다운로드"></script><link rel="stylesheet" type="text/css" href="./Untitled_files/widgets.min.css"></head>
+
+<body class="notebook_app  command_mode" data-project="" data-base-url="/" data-ws-url="" data-notebook-name="Untitled.ipynb" data-notebook-path="Untitled.ipynb"><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+
+<noscript>
+    &lt;div id='noscript'&gt;
+      IPython Notebook requires JavaScript.&lt;br&gt;
+      Please enable it to proceed.
+  &lt;/div&gt;
+</noscript>
+
+<div id="header" style="display: block;">
+  <div id="header-container" class="container">
+  <div id="ipython_notebook" class="nav navbar-brand pull-left"><a href="http://localhost:8889/tree" title="dashboard"><img src="./Untitled_files/logo.png" alt="Jupyter Notebook"></a></div>
+
+  
+  
+  
+
+    <span id="login_widget">
+      
+    </span>
+
+  
+
+  
+
+  
+
+
+<span id="save_widget" class="pull-left save_widget">
+    <span id="notebook_name" class="filename">Untitled</span>
+    <span class="checkpoint_status" title="Tue, May 9, 2017 9:58 PM">Last Checkpoint: a minute ago</span>
+    <span class="autosave_status">(autosaved)</span>
+</span>
+
+<span id="kernel_logo_widget">
+  <img class="current_kernel_logo" src="./Untitled_files/logo-64x64.png" style="display: inline;">
+</span>
+
+
+  </div>
+  <div class="header-bar"></div>
+
+  
+<div id="menubar-container" class="container">
+<div id="menubar">
+    <div id="menus" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <button type="button" class="btn btn-default navbar-btn navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <i class="fa fa-bars"></i>
+              <span class="navbar-text">Menu</span>
+            </button>
+            <p id="kernel_indicator" class="navbar-text indicator_area">
+              <span class="kernel_indicator_name">Python 2</span>
+              <i id="kernel_indicator_icon" class="kernel_idle_icon" title="Kernel Idle"></i>
+            </p>
+            <i id="readonly-indicator" class="navbar-text" title="This notebook is read-only" style="display: none;">
+                <span class="fa-stack">
+                    <i class="fa fa-save fa-stack-1x"></i>
+                    <i class="fa fa-ban fa-stack-2x text-danger"></i>
+                </span>
+            </i>
+            <i id="modal_indicator" class="navbar-text modal_indicator" title="Command Mode"></i>
+            <span id="notification_area"><div id="notification_kernel" class="notification_widget btn btn-xs navbar-btn undefined info" style="display: none;"><span></span></div><div id="notification_notebook" class="notification_widget btn btn-xs navbar-btn" style="display: none;"><span></span></div></span>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="dropdown"><a href="http://localhost:8889/notebooks/Untitled.ipynb#" class="dropdown-toggle" data-toggle="dropdown">File</a>
+                    <ul id="file_menu" class="dropdown-menu">
+                        <li id="new_notebook" class="dropdown-submenu">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">New Notebook</a>
+                            <ul class="dropdown-menu" id="menu-new-notebook-submenu"><li id="new-notebook-submenu-python2"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Python 2</a></li></ul>
+                        </li>
+                        <li id="open_notebook" title="Opens a new window with the Dashboard view">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Open...</a></li>
+                        <!-- <hr/> -->
+                        <li class="divider"></li>
+                        <li id="copy_notebook" title="Open a copy of this notebook&#39;s contents and start a new kernel">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Make a Copy...</a></li>
+                        <li id="rename_notebook"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Rename...</a></li>
+                        <li id="save_checkpoint"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Save and Checkpoint</a></li>
+                        <!-- <hr/> -->
+                        <li class="divider"></li>
+                        <li id="restore_checkpoint" class="dropdown-submenu"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Revert to Checkpoint</a>
+                          <ul class="dropdown-menu"><li><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Tuesday, May 9, 2017 9:58 PM</a></li></ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li id="print_preview"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Print Preview</a></li>
+                        <li class="dropdown-submenu"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Download as</a>
+                            <ul class="dropdown-menu">
+                                <li id="download_ipynb"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">IPython Notebook (.ipynb)</a></li>
+                                <li id="download_script"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Python (.py)</a></li>
+                                <li id="download_html"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">HTML (.html)</a></li>
+                                <li id="download_markdown"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Markdown (.md)</a></li>
+                                <li id="download_rst"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">reST (.rst)</a></li>
+                                <li id="download_pdf"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">PDF via LaTeX (.pdf)</a></li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li id="trust_notebook" title="Trust the output of this notebook" class="disabled">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Trusted Notebook</a></li>
+                        <li class="divider"></li>
+                        <li id="kill_and_exit" title="Shutdown this notebook&#39;s kernel, and close this window">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Close and Halt</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="http://localhost:8889/notebooks/Untitled.ipynb#" class="dropdown-toggle" data-toggle="dropdown">Edit</a>
+                    <ul id="edit_menu" class="dropdown-menu">
+                        <li id="cut_cell"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Cut Cell</a></li>
+                        <li id="copy_cell"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Copy Cell</a></li>
+                        <li id="paste_cell_above" class="disabled"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Paste Cell Above</a></li>
+                        <li id="paste_cell_below" class="disabled"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Paste Cell Below</a></li>
+                        <li id="paste_cell_replace" class="disabled"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Paste Cell &amp; Replace</a></li>
+                        <li id="delete_cell"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Delete Cell</a></li>
+                        <li id="undelete_cell" class="disabled"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Undo Delete Cell</a></li>
+                        <li class="divider"></li>
+                        <li id="split_cell"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Split Cell</a></li>
+                        <li id="merge_cell_above"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Merge Cell Above</a></li>
+                        <li id="merge_cell_below"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Merge Cell Below</a></li>
+                        <li class="divider"></li>
+                        <li id="move_cell_up"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Move Cell Up</a></li>
+                        <li id="move_cell_down"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Move Cell Down</a></li>
+                        <li class="divider"></li>
+                        <li id="edit_nb_metadata"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Edit Notebook Metadata</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="http://localhost:8889/notebooks/Untitled.ipynb#" class="dropdown-toggle" data-toggle="dropdown">View</a>
+                    <ul id="view_menu" class="dropdown-menu">
+                        <li id="toggle_header" title="Show/Hide the IPython Notebook logo and notebook title (above menu bar)">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Toggle Header</a></li>
+                        <li id="toggle_toolbar" title="Show/Hide the action icons (below menu bar)">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Toggle Toolbar</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="http://localhost:8889/notebooks/Untitled.ipynb#" class="dropdown-toggle" data-toggle="dropdown">Insert</a>
+                    <ul id="insert_menu" class="dropdown-menu">
+                        <li id="insert_cell_above" title="Insert an empty Code cell above the currently active cell">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Insert Cell Above</a></li>
+                        <li id="insert_cell_below" title="Insert an empty Code cell below the currently active cell">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Insert Cell Below</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="http://localhost:8889/notebooks/Untitled.ipynb#" class="dropdown-toggle" data-toggle="dropdown">Cell</a>
+                    <ul id="cell_menu" class="dropdown-menu">
+                        <li id="run_cell" title="Run this cell, and move cursor to the next one">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Run</a></li>
+                        <li id="run_cell_select_below" title="Run this cell, select below">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Run and Select Below</a></li>
+                        <li id="run_cell_insert_below" title="Run this cell, insert below">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Run and Insert Below</a></li>
+                        <li id="run_all_cells" title="Run all cells in the notebook">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Run All</a></li>
+                        <li id="run_all_cells_above" title="Run all cells above (but not including) this cell">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Run All Above</a></li>
+                        <li id="run_all_cells_below" title="Run this cell and all cells below it">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Run All Below</a></li>
+                        <li class="divider"></li>
+                        <li id="change_cell_type" class="dropdown-submenu" title="All cells in the notebook have a cell type. By default, new cells are created as &#39;Code&#39; cells">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Cell Type</a>
+                            <ul class="dropdown-menu">
+                              <li id="to_code" title="Contents will be sent to the kernel for execution, and output will display in the footer of cell">
+                                  <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Code</a></li>
+                              <li id="to_markdown" title="Contents will be rendered as HTML and serve as explanatory text">
+                                  <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Markdown</a></li>
+                              <li id="to_raw" title="Contents will pass through nbconvert unmodified">
+                                  <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Raw NBConvert</a></li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li id="current_outputs" class="dropdown-submenu"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Current Output</a>
+                            <ul class="dropdown-menu">
+                                <li id="toggle_current_output" title="Hide/Show the output of the current cell">
+                                    <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Toggle</a>
+                                </li>
+                                <li id="toggle_current_output_scroll" title="Scroll the output of the current cell">
+                                    <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Toggle Scrolling</a>
+                                </li>
+                                <li id="clear_current_output" title="Clear the output of the current cell">
+                                    <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Clear</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="all_outputs" class="dropdown-submenu"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">All Output</a>
+                            <ul class="dropdown-menu">
+                                <li id="toggle_all_output" title="Hide/Show the output of all cells">
+                                    <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Toggle</a>
+                                </li>
+                                <li id="toggle_all_output_scroll" title="Scroll the output of all cells">
+                                    <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Toggle Scrolling</a>
+                                </li>
+                                <li id="clear_all_output" title="Clear the output of all cells">
+                                    <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Clear</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="http://localhost:8889/notebooks/Untitled.ipynb#" class="dropdown-toggle" data-toggle="dropdown">Kernel</a>
+                    <ul id="kernel_menu" class="dropdown-menu">
+                        <li id="int_kernel" title="Send KeyboardInterrupt (CTRL-C) to the Kernel">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Interrupt</a>
+                        </li>
+                        <li id="restart_kernel" title="Restart the Kernel">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Restart</a>
+                        </li>
+                        <li id="reconnect_kernel" title="Reconnect to the Kernel">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Reconnect</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li id="menu-change-kernel" class="dropdown-submenu">
+                            <a href="http://localhost:8889/notebooks/Untitled.ipynb#">Change kernel</a>
+                            <ul class="dropdown-menu" id="menu-change-kernel-submenu"><li id="kernel-submenu-python2"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Python 2</a></li></ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="http://localhost:8889/notebooks/Untitled.ipynb#" class="dropdown-toggle" data-toggle="dropdown">Help</a>
+                    <ul id="help_menu" class="dropdown-menu">
+                        <li id="notebook_tour" title="A quick tour of the notebook user interface"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">User Interface Tour</a></li>
+                        <li id="keyboard_shortcuts" title="Opens a tooltip with all keyboard shortcuts"><a href="http://localhost:8889/notebooks/Untitled.ipynb#">Keyboard Shortcuts</a></li>
+                        <li class="divider"></li>
+                        
+
+                        
+                            
+                                <li><a href="http://nbviewer.ipython.org/github/ipython/ipython/blob/3.x/examples/Notebook/Index.ipynb" target="&quot;_blank&quot;" title="&quot;Opens" in="" a="" new="" window&#34;="">
+                                
+                                    <i class="fa fa-external-link menu-icon pull-right"></i>
+                                
+
+                                Notebook Help
+                                </a></li>
+                            
+                                <li><a href="https://help.github.com/articles/markdown-basics/" target="&quot;_blank&quot;" title="&quot;Opens" in="" a="" new="" window&#34;="">
+                                
+                                    <i class="fa fa-external-link menu-icon pull-right"></i>
+                                
+
+                                Markdown
+                                </a></li>
+                            
+                            
+                        
+                        <li id="kernel-help-links" class="divider"></li><li><a target="_blank" title="Opens in a new window" href="http://docs.python.org/2.7"><i class="fa fa-external-link menu-icon pull-right"></i><span>Python</span></a></li><li><a target="_blank" title="Opens in a new window" href="http://ipython.org/documentation.html"><i class="fa fa-external-link menu-icon pull-right"></i><span>IPython</span></a></li><li><a target="_blank" title="Opens in a new window" href="http://docs.scipy.org/doc/numpy/reference/"><i class="fa fa-external-link menu-icon pull-right"></i><span>NumPy</span></a></li><li><a target="_blank" title="Opens in a new window" href="http://docs.scipy.org/doc/scipy/reference/"><i class="fa fa-external-link menu-icon pull-right"></i><span>SciPy</span></a></li><li><a target="_blank" title="Opens in a new window" href="http://matplotlib.org/contents.html"><i class="fa fa-external-link menu-icon pull-right"></i><span>Matplotlib</span></a></li><li><a target="_blank" title="Opens in a new window" href="http://docs.sympy.org/latest/index.html"><i class="fa fa-external-link menu-icon pull-right"></i><span>SymPy</span></a></li><li><a target="_blank" title="Opens in a new window" href="http://pandas.pydata.org/pandas-docs/stable/"><i class="fa fa-external-link menu-icon pull-right"></i><span>pandas</span></a></li><li class="divider"></li>
+                        <li title="About IPython Notebook"><a id="notebook_about" href="http://localhost:8889/notebooks/Untitled.ipynb#">About</a></li>
+                    </ul>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="maintoolbar" class="navbar">
+  <div class="toolbar-inner navbar-inner navbar-nobg">
+    <div id="maintoolbar-container" class="container toolbar"><div class="btn-group" id="save-notbook"><button class="btn btn-default" title="Save and Checkpoint" data-jupyter-action="ipython.save-notebook"><i class="fa-save fa"></i></button></div><div class="btn-group" id="insert_above_below"><button class="btn btn-default" title="insert cell below" data-jupyter-action="ipython.insert-cell-after"><i class="fa-plus fa"></i></button></div><div class="btn-group" id="cut_copy_paste"><button class="btn btn-default" title="cut selected cell" data-jupyter-action="ipython.cut-selected-cell"><i class="fa-cut fa"></i></button><button class="btn btn-default" title="copy selected cell" data-jupyter-action="ipython.copy-selected-cell"><i class="fa-copy fa"></i></button><button class="btn btn-default" title="paste cell below" data-jupyter-action="ipython.paste-cell-after"><i class="fa-paste fa"></i></button></div><div class="btn-group" id="move_up_down"><button class="btn btn-default" title="move selected cell up" data-jupyter-action="ipython.move-selected-cell-up"><i class="fa-arrow-up fa"></i></button><button class="btn btn-default" title="move selected cell down" data-jupyter-action="ipython.move-selected-cell-down"><i class="fa-arrow-down fa"></i></button></div><div class="btn-group" id="run_int"><button class="btn btn-default" title="run cell, select below" data-jupyter-action="ipython.run-select-next"><i class="fa-step-forward fa"></i></button><button class="btn btn-default" title="interrupt kernel" data-jupyter-action="ipython.interrupt-kernel"><i class="fa-stop fa"></i></button><button class="btn btn-default" title="restart kernel" data-jupyter-action="ipython.restart-kernel"><i class="fa-repeat fa"></i></button></div><select id="cell_type" class="form-control select-xs"><option value="code">Code</option><option value="markdown">Markdown</option><option value="raw">Raw NBConvert</option><option value="heading">Heading</option></select><div class="btn-group"><span class="navbar-text">Cell Toolbar:</span><select id="ctb_select" class="form-control select-xs"><option value="">None</option><option value="Edit Metadata">Edit Metadata</option><option value="Raw Cell Format">Raw Cell Format</option><option value="Slideshow">Slideshow</option></select></div></div>
+  </div>
+</div>
+</div>
+
+<div class="lower-header-bar"></div>
+
+</div>
+
+<div id="site" style="height: 1051px; display: block;">
+
+
+<div id="ipython-main-app">
+    <div id="notebook_panel">
+        <div id="notebook" tabindex="-1"><div class="container" id="notebook-container"><div class="cell code_cell rendered selected" tabindex="2"><div class="input"><div class="prompt input_prompt">In&nbsp;[3]:</div><div class="inner_cell"><div class="ctb_hideshow"><div class="celltoolbar"></div></div><div class="input_area"><div class="CodeMirror cm-s-ipython"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.58594px; left: 5.58594px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true" style="bottom: 0px;"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; min-width: 807.688px; margin-bottom: -21px; border-right-width: 9px; min-height: 596px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 0px; top: 0px; height: 16.25px;">&nbsp;</div></div><div class="CodeMirror-code"><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-keyword">import</span> <span class="cm-variable">mxnet</span> <span class="cm-keyword">as</span> <span class="cm-variable">mx</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">data</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">Variable</span>(<span class="cm-string">'data'</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">label</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">Variable</span>(<span class="cm-string">'label'</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-comment"># first convolution layer</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">conv1</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">Convolution</span>(<span class="cm-variable">data</span>=<span class="cm-variable">data</span>, <span class="cm-variable">kernel</span>=(<span class="cm-number">5</span>, <span class="cm-number">5</span>), <span class="cm-variable">num_filter</span>=<span class="cm-number">30</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">conv1</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">BatchNorm</span>(<span class="cm-variable">data</span>=<span class="cm-variable">conv1</span>,<span class="cm-variable">fix_gamma</span>=<span class="cm-builtin">False</span>,<span class="cm-variable">use_global_stats</span>=<span class="cm-builtin">True</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">relu1</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">Activation</span>(<span class="cm-variable">data</span>=<span class="cm-variable">conv1</span>, <span class="cm-variable">name</span>=<span class="cm-string">'relu_c1'</span> ,<span class="cm-variable">act_type</span>=<span class="cm-string">"relu"</span>) <span class="cm-comment"># -&gt; size : (batch_size,30,24,24)</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">pool1</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">Pooling</span>(<span class="cm-variable">data</span>=<span class="cm-variable">relu1</span>, <span class="cm-variable">pool_type</span>=<span class="cm-string">"max"</span>, <span class="cm-variable">kernel</span>=(<span class="cm-number">2</span>, <span class="cm-number">2</span>), <span class="cm-variable">stride</span>=(<span class="cm-number">2</span>, <span class="cm-number">2</span>)) <span class="cm-comment"># -&gt; size : (batch_size,30,12,12)</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-comment"># second convolution layer</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">conv2</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">Convolution</span>(<span class="cm-variable">data</span>=<span class="cm-variable">pool1</span>, <span class="cm-variable">kernel</span>=(<span class="cm-number">5</span>, <span class="cm-number">5</span>), <span class="cm-variable">num_filter</span>=<span class="cm-number">60</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">conv2</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">BatchNorm</span>(<span class="cm-variable">data</span>=<span class="cm-variable">conv2</span>,<span class="cm-variable">fix_gamma</span>=<span class="cm-builtin">False</span>,<span class="cm-variable">use_global_stats</span>=<span class="cm-builtin">True</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">relu2</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">Activation</span>(<span class="cm-variable">data</span>=<span class="cm-variable">conv2</span>, <span class="cm-variable">name</span>=<span class="cm-string">'relu_c2'</span> ,<span class="cm-variable">act_type</span>=<span class="cm-string">"relu"</span>)<span class="cm-comment"># -&gt; size : (batch_size,60,8,8)</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">pool2</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">Pooling</span>(<span class="cm-variable">data</span>=<span class="cm-variable">relu2</span>, <span class="cm-variable">pool_type</span>=<span class="cm-string">"max"</span>, <span class="cm-variable">kernel</span>=(<span class="cm-number">2</span>, <span class="cm-number">2</span>), <span class="cm-variable">stride</span>=(<span class="cm-number">2</span>, <span class="cm-number">2</span>)) <span class="cm-comment"># -&gt; size : (batch_size,60,4,4)</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-comment">#flatten the data</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">flatten</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">Flatten</span>(<span class="cm-variable">data</span>=<span class="cm-variable">pool2</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-comment"># first fullyconnected layer</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">affine1</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">FullyConnected</span>(<span class="cm-variable">data</span>=<span class="cm-variable">flatten</span> , <span class="cm-variable">name</span>=<span class="cm-string">'fc1'</span>,<span class="cm-variable">num_hidden</span>=<span class="cm-number">100</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">affine1</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">BatchNorm</span>(<span class="cm-variable">data</span>= <span class="cm-variable">affine1</span>,<span class="cm-variable">fix_gamma</span>=<span class="cm-builtin">False</span>,<span class="cm-variable">use_global_stats</span>=<span class="cm-builtin">True</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">hidden1</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">Activation</span>(<span class="cm-variable">data</span>=<span class="cm-variable">affine1</span>, <span class="cm-variable">name</span>=<span class="cm-string">'relu_f1'</span>, <span class="cm-variable">act_type</span>=<span class="cm-string">"relu"</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-comment"># two fullyconnected layer</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">affine2</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">FullyConnected</span>(<span class="cm-variable">data</span>=<span class="cm-variable">hidden1</span>, <span class="cm-variable">name</span>=<span class="cm-string">'fc2'</span>, <span class="cm-variable">num_hidden</span>=<span class="cm-number">100</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">affine2</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">BatchNorm</span>(<span class="cm-variable">data</span>= <span class="cm-variable">affine2</span>,<span class="cm-variable">fix_gamma</span>=<span class="cm-builtin">False</span>,<span class="cm-variable">use_global_stats</span>=<span class="cm-builtin">True</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">hidden2</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">Activation</span>(<span class="cm-variable">data</span>=<span class="cm-variable">affine2</span>, <span class="cm-variable">name</span>=<span class="cm-string">'relu_f2'</span>, <span class="cm-variable">act_type</span>=<span class="cm-string">"relu"</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">output_affine</span> = <span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">FullyConnected</span>(<span class="cm-variable">data</span>=<span class="cm-variable">hidden2</span>, <span class="cm-variable">name</span>=<span class="cm-string">'fc3'</span>, <span class="cm-variable">num_hidden</span>=<span class="cm-number">10</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">output</span>=<span class="cm-variable">mx</span>.<span class="cm-variable">sym</span>.<span class="cm-variable">SoftmaxOutput</span>(<span class="cm-variable">data</span>=<span class="cm-variable">output_affine</span>,<span class="cm-variable">label</span>=<span class="cm-variable">label</span>)</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-comment"># We visualize the network structure with output size (the batch_size is ignored.)</span></span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">shape</span> = {<span class="cm-string">"data"</span>: (<span class="cm-number">100</span>,<span class="cm-number">1</span>,<span class="cm-number">28</span>,<span class="cm-number">28</span>)}</span></pre><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span class="cm-variable">mx</span>.<span class="cm-variable">viz</span>.<span class="cm-variable">plot_network</span>(<span class="cm-variable">symbol</span>=<span class="cm-variable">output</span>,<span class="cm-variable">shape</span>=<span class="cm-variable">shape</span>)<span class="cm-comment">#The diagram can be found on the Jupiter noteboo</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 9px; width: 1px; top: 596px;"></div><div class="CodeMirror-gutters" style="display: none; height: 605px;"></div></div></div></div></div></div><div class="widget-area" style="display: none;"><div class="prompt"><button class="close">×</button></div><div class="widget-subarea"></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to unscroll output; double click to hide" style=""></div><div class="output output_scroll" style=""><div class="output_area"><div class="prompt output_prompt">Out[3]:</div><div class="output_subarea output_svg output_result"><div style="width: 1222pt; height: 1919pt;"><svg width="1222pt" height="1919pt" viewBox="0.00 0.00 1222.00 1919.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%;">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1915)">
+<title>plot</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1915 1218,-1915 1218,4 -4,4"></polygon>
+<!-- data -->
+<g id="node1" class="node"><title>data</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="47" cy="-29" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="47" y="-25.3" font-family="Times New Roman,serif" font-size="14.00">data</text>
+</g>
+<!-- convolution2 -->
+<g id="node2" class="node"><title>convolution2</title>
+<polygon fill="#fb8072" stroke="black" points="94,-167 -7.10543e-015,-167 -7.10543e-015,-109 94,-109 94,-167"></polygon>
+<text text-anchor="middle" x="47" y="-141.8" font-family="Times New Roman,serif" font-size="14.00">Convolution</text>
+<text text-anchor="middle" x="47" y="-126.8" font-family="Times New Roman,serif" font-size="14.00">5x5/1, 30</text>
+</g>
+<!-- convolution2&#45;&gt;data -->
+<g id="edge1" class="edge"><title>convolution2-&gt;data</title>
+<path fill="none" stroke="black" d="M47,-98.5824C47,-85.2841 47,-70.632 47,-58.2967"></path>
+<polygon fill="black" stroke="black" points="47,-108.887 42.5001,-98.887 47,-103.887 47.0001,-98.887 47.0001,-98.887 47.0001,-98.887 47,-103.887 51.5001,-98.8871 47,-108.887 47,-108.887"></polygon>
+<text text-anchor="middle" x="71" y="-79.8" font-family="Times New Roman,serif" font-size="14.00">1x28x28</text>
+</g>
+<!-- batchnorm4_gamma -->
+<g id="node3" class="node"><title>batchnorm4_gamma</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="159" cy="-138" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="159" y="-134.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm4_gamma</text>
+</g>
+<!-- batchnorm4_beta -->
+<g id="node4" class="node"><title>batchnorm4_beta</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="271" cy="-138" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="271" y="-134.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm4_beta</text>
+</g>
+<!-- batchnorm4_moving_mean -->
+<g id="node5" class="node"><title>batchnorm4_moving_mean</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="383" cy="-138" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="383" y="-134.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm4_moving_mean</text>
+</g>
+<!-- batchnorm4_moving_var -->
+<g id="node6" class="node"><title>batchnorm4_moving_var</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="495" cy="-138" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="495" y="-134.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm4_moving_var</text>
+</g>
+<!-- batchnorm4 -->
+<g id="node7" class="node"><title>batchnorm4</title>
+<polygon fill="#bebada" stroke="black" points="318,-276 224,-276 224,-218 318,-218 318,-276"></polygon>
+<text text-anchor="middle" x="271" y="-243.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm4</text>
+</g>
+<!-- batchnorm4&#45;&gt;convolution2 -->
+<g id="edge2" class="edge"><title>batchnorm4-&gt;convolution2</title>
+<path fill="none" stroke="black" d="M214.396,-226.764C193.796,-219.17 170.537,-209.895 150,-200 129.967,-190.348 108.686,-178.108 90.7006,-167.129"></path>
+<polygon fill="black" stroke="black" points="223.962,-230.241 213.026,-231.054 219.262,-228.533 214.563,-226.825 214.563,-226.825 214.563,-226.825 219.262,-228.533 216.101,-222.595 223.962,-230.241 223.962,-230.241"></polygon>
+<text text-anchor="middle" x="177.5" y="-188.8" font-family="Times New Roman,serif" font-size="14.00">30x24x24</text>
+</g>
+<!-- batchnorm4&#45;&gt;batchnorm4_gamma -->
+<g id="edge3" class="edge"><title>batchnorm4-&gt;batchnorm4_gamma</title>
+<path fill="none" stroke="black" d="M234.221,-210.863C217.781,-195.157 198.826,-177.048 184.057,-162.938"></path>
+<polygon fill="black" stroke="black" points="241.573,-217.887 231.234,-214.233 237.958,-214.433 234.343,-210.979 234.343,-210.979 234.343,-210.979 237.958,-214.433 237.451,-207.725 241.573,-217.887 241.573,-217.887"></polygon>
+</g>
+<!-- batchnorm4&#45;&gt;batchnorm4_beta -->
+<g id="edge4" class="edge"><title>batchnorm4-&gt;batchnorm4_beta</title>
+<path fill="none" stroke="black" d="M271,-207.582C271,-194.284 271,-179.632 271,-167.297"></path>
+<polygon fill="black" stroke="black" points="271,-217.887 266.5,-207.887 271,-212.887 271,-207.887 271,-207.887 271,-207.887 271,-212.887 275.5,-207.887 271,-217.887 271,-217.887"></polygon>
+</g>
+<!-- batchnorm4&#45;&gt;batchnorm4_moving_mean -->
+<g id="edge5" class="edge"><title>batchnorm4-&gt;batchnorm4_moving_mean</title>
+<path fill="none" stroke="black" d="M307.779,-210.863C324.219,-195.157 343.174,-177.048 357.943,-162.938"></path>
+<polygon fill="black" stroke="black" points="300.427,-217.887 304.549,-207.725 304.042,-214.433 307.657,-210.979 307.657,-210.979 307.657,-210.979 304.042,-214.433 310.766,-214.233 300.427,-217.887 300.427,-217.887"></polygon>
+</g>
+<!-- batchnorm4&#45;&gt;batchnorm4_moving_var -->
+<g id="edge6" class="edge"><title>batchnorm4-&gt;batchnorm4_moving_var</title>
+<path fill="none" stroke="black" d="M327.605,-219.796C360.26,-204.576 402.048,-184.923 439,-167 445.553,-163.822 452.511,-160.389 459.214,-157.053"></path>
+<polygon fill="black" stroke="black" points="318.214,-224.168 325.381,-215.868 322.747,-222.058 327.28,-219.947 327.28,-219.947 327.28,-219.947 322.747,-222.058 329.179,-224.027 318.214,-224.168 318.214,-224.168"></polygon>
+</g>
+<!-- relu_c1 -->
+<g id="node8" class="node"><title>relu_c1</title>
+<polygon fill="#ffffb3" stroke="black" points="318,-385 224,-385 224,-327 318,-327 318,-385"></polygon>
+<text text-anchor="middle" x="271" y="-359.8" font-family="Times New Roman,serif" font-size="14.00">Activation</text>
+<text text-anchor="middle" x="271" y="-344.8" font-family="Times New Roman,serif" font-size="14.00">relu</text>
+</g>
+<!-- relu_c1&#45;&gt;batchnorm4 -->
+<g id="edge7" class="edge"><title>relu_c1-&gt;batchnorm4</title>
+<path fill="none" stroke="black" d="M271,-316.582C271,-303.284 271,-288.632 271,-276.297"></path>
+<polygon fill="black" stroke="black" points="271,-326.887 266.5,-316.887 271,-321.887 271,-316.887 271,-316.887 271,-316.887 271,-321.887 275.5,-316.887 271,-326.887 271,-326.887"></polygon>
+<text text-anchor="middle" x="298.5" y="-297.8" font-family="Times New Roman,serif" font-size="14.00">30x24x24</text>
+</g>
+<!-- pooling2 -->
+<g id="node9" class="node"><title>pooling2</title>
+<polygon fill="#80b1d3" stroke="black" points="318,-494 224,-494 224,-436 318,-436 318,-494"></polygon>
+<text text-anchor="middle" x="271" y="-468.8" font-family="Times New Roman,serif" font-size="14.00">Pooling</text>
+<text text-anchor="middle" x="271" y="-453.8" font-family="Times New Roman,serif" font-size="14.00">max, 2x2/2x2</text>
+</g>
+<!-- pooling2&#45;&gt;relu_c1 -->
+<g id="edge8" class="edge"><title>pooling2-&gt;relu_c1</title>
+<path fill="none" stroke="black" d="M271,-425.582C271,-412.284 271,-397.632 271,-385.297"></path>
+<polygon fill="black" stroke="black" points="271,-435.887 266.5,-425.887 271,-430.887 271,-425.887 271,-425.887 271,-425.887 271,-430.887 275.5,-425.887 271,-435.887 271,-435.887"></polygon>
+<text text-anchor="middle" x="298.5" y="-406.8" font-family="Times New Roman,serif" font-size="14.00">30x24x24</text>
+</g>
+<!-- convolution3 -->
+<g id="node10" class="node"><title>convolution3</title>
+<polygon fill="#fb8072" stroke="black" points="318,-603 224,-603 224,-545 318,-545 318,-603"></polygon>
+<text text-anchor="middle" x="271" y="-577.8" font-family="Times New Roman,serif" font-size="14.00">Convolution</text>
+<text text-anchor="middle" x="271" y="-562.8" font-family="Times New Roman,serif" font-size="14.00">5x5/1, 60</text>
+</g>
+<!-- convolution3&#45;&gt;pooling2 -->
+<g id="edge9" class="edge"><title>convolution3-&gt;pooling2</title>
+<path fill="none" stroke="black" d="M271,-534.582C271,-521.284 271,-506.632 271,-494.297"></path>
+<polygon fill="black" stroke="black" points="271,-544.887 266.5,-534.887 271,-539.887 271,-534.887 271,-534.887 271,-534.887 271,-539.887 275.5,-534.887 271,-544.887 271,-544.887"></polygon>
+<text text-anchor="middle" x="298.5" y="-515.8" font-family="Times New Roman,serif" font-size="14.00">30x12x12</text>
+</g>
+<!-- batchnorm5_gamma -->
+<g id="node11" class="node"><title>batchnorm5_gamma</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="383" cy="-574" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="383" y="-570.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm5_gamma</text>
+</g>
+<!-- batchnorm5_beta -->
+<g id="node12" class="node"><title>batchnorm5_beta</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="495" cy="-574" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="495" y="-570.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm5_beta</text>
+</g>
+<!-- batchnorm5_moving_mean -->
+<g id="node13" class="node"><title>batchnorm5_moving_mean</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="607" cy="-574" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="607" y="-570.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm5_moving_mean</text>
+</g>
+<!-- batchnorm5_moving_var -->
+<g id="node14" class="node"><title>batchnorm5_moving_var</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="719" cy="-574" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="719" y="-570.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm5_moving_var</text>
+</g>
+<!-- batchnorm5 -->
+<g id="node15" class="node"><title>batchnorm5</title>
+<polygon fill="#bebada" stroke="black" points="542,-712 448,-712 448,-654 542,-654 542,-712"></polygon>
+<text text-anchor="middle" x="495" y="-679.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm5</text>
+</g>
+<!-- batchnorm5&#45;&gt;convolution3 -->
+<g id="edge10" class="edge"><title>batchnorm5-&gt;convolution3</title>
+<path fill="none" stroke="black" d="M438.343,-658.575C421.985,-651.561 404.185,-643.685 388,-636 364.72,-624.946 339.306,-611.827 318.13,-600.593"></path>
+<polygon fill="black" stroke="black" points="447.785,-662.598 436.821,-662.818 443.185,-660.638 438.585,-658.678 438.585,-658.678 438.585,-658.678 443.185,-660.638 440.349,-654.538 447.785,-662.598 447.785,-662.598"></polygon>
+<text text-anchor="middle" x="408.5" y="-624.8" font-family="Times New Roman,serif" font-size="14.00">60x8x8</text>
+</g>
+<!-- batchnorm5&#45;&gt;batchnorm5_gamma -->
+<g id="edge11" class="edge"><title>batchnorm5-&gt;batchnorm5_gamma</title>
+<path fill="none" stroke="black" d="M458.221,-646.863C441.781,-631.157 422.826,-613.048 408.057,-598.938"></path>
+<polygon fill="black" stroke="black" points="465.573,-653.887 455.234,-650.233 461.958,-650.433 458.343,-646.979 458.343,-646.979 458.343,-646.979 461.958,-650.433 461.451,-643.725 465.573,-653.887 465.573,-653.887"></polygon>
+</g>
+<!-- batchnorm5&#45;&gt;batchnorm5_beta -->
+<g id="edge12" class="edge"><title>batchnorm5-&gt;batchnorm5_beta</title>
+<path fill="none" stroke="black" d="M495,-643.582C495,-630.284 495,-615.632 495,-603.297"></path>
+<polygon fill="black" stroke="black" points="495,-653.887 490.5,-643.887 495,-648.887 495,-643.887 495,-643.887 495,-643.887 495,-648.887 499.5,-643.887 495,-653.887 495,-653.887"></polygon>
+</g>
+<!-- batchnorm5&#45;&gt;batchnorm5_moving_mean -->
+<g id="edge13" class="edge"><title>batchnorm5-&gt;batchnorm5_moving_mean</title>
+<path fill="none" stroke="black" d="M531.779,-646.863C548.219,-631.157 567.174,-613.048 581.943,-598.938"></path>
+<polygon fill="black" stroke="black" points="524.427,-653.887 528.549,-643.725 528.042,-650.433 531.657,-646.979 531.657,-646.979 531.657,-646.979 528.042,-650.433 534.766,-650.233 524.427,-653.887 524.427,-653.887"></polygon>
+</g>
+<!-- batchnorm5&#45;&gt;batchnorm5_moving_var -->
+<g id="edge14" class="edge"><title>batchnorm5-&gt;batchnorm5_moving_var</title>
+<path fill="none" stroke="black" d="M551.605,-655.796C584.26,-640.576 626.048,-620.923 663,-603 669.553,-599.822 676.511,-596.389 683.214,-593.053"></path>
+<polygon fill="black" stroke="black" points="542.214,-660.168 549.381,-651.868 546.747,-658.058 551.28,-655.947 551.28,-655.947 551.28,-655.947 546.747,-658.058 553.179,-660.027 542.214,-660.168 542.214,-660.168"></polygon>
+</g>
+<!-- relu_c2 -->
+<g id="node16" class="node"><title>relu_c2</title>
+<polygon fill="#ffffb3" stroke="black" points="542,-821 448,-821 448,-763 542,-763 542,-821"></polygon>
+<text text-anchor="middle" x="495" y="-795.8" font-family="Times New Roman,serif" font-size="14.00">Activation</text>
+<text text-anchor="middle" x="495" y="-780.8" font-family="Times New Roman,serif" font-size="14.00">relu</text>
+</g>
+<!-- relu_c2&#45;&gt;batchnorm5 -->
+<g id="edge15" class="edge"><title>relu_c2-&gt;batchnorm5</title>
+<path fill="none" stroke="black" d="M495,-752.582C495,-739.284 495,-724.632 495,-712.297"></path>
+<polygon fill="black" stroke="black" points="495,-762.887 490.5,-752.887 495,-757.887 495,-752.887 495,-752.887 495,-752.887 495,-757.887 499.5,-752.887 495,-762.887 495,-762.887"></polygon>
+<text text-anchor="middle" x="515.5" y="-733.8" font-family="Times New Roman,serif" font-size="14.00">60x8x8</text>
+</g>
+<!-- pooling3 -->
+<g id="node17" class="node"><title>pooling3</title>
+<polygon fill="#80b1d3" stroke="black" points="542,-930 448,-930 448,-872 542,-872 542,-930"></polygon>
+<text text-anchor="middle" x="495" y="-904.8" font-family="Times New Roman,serif" font-size="14.00">Pooling</text>
+<text text-anchor="middle" x="495" y="-889.8" font-family="Times New Roman,serif" font-size="14.00">max, 2x2/2x2</text>
+</g>
+<!-- pooling3&#45;&gt;relu_c2 -->
+<g id="edge16" class="edge"><title>pooling3-&gt;relu_c2</title>
+<path fill="none" stroke="black" d="M495,-861.582C495,-848.284 495,-833.632 495,-821.297"></path>
+<polygon fill="black" stroke="black" points="495,-871.887 490.5,-861.887 495,-866.887 495,-861.887 495,-861.887 495,-861.887 495,-866.887 499.5,-861.887 495,-871.887 495,-871.887"></polygon>
+<text text-anchor="middle" x="515.5" y="-842.8" font-family="Times New Roman,serif" font-size="14.00">60x8x8</text>
+</g>
+<!-- flatten1 -->
+<g id="node18" class="node"><title>flatten1</title>
+<polygon fill="#fdb462" stroke="black" points="542,-1039 448,-1039 448,-981 542,-981 542,-1039"></polygon>
+<text text-anchor="middle" x="495" y="-1006.3" font-family="Times New Roman,serif" font-size="14.00">flatten1</text>
+</g>
+<!-- flatten1&#45;&gt;pooling3 -->
+<g id="edge17" class="edge"><title>flatten1-&gt;pooling3</title>
+<path fill="none" stroke="black" d="M495,-970.582C495,-957.284 495,-942.632 495,-930.297"></path>
+<polygon fill="black" stroke="black" points="495,-980.887 490.5,-970.887 495,-975.887 495,-970.887 495,-970.887 495,-970.887 495,-975.887 499.5,-970.887 495,-980.887 495,-980.887"></polygon>
+<text text-anchor="middle" x="515.5" y="-951.8" font-family="Times New Roman,serif" font-size="14.00">60x4x4</text>
+</g>
+<!-- fc1 -->
+<g id="node19" class="node"><title>fc1</title>
+<polygon fill="#fb8072" stroke="black" points="542,-1148 448,-1148 448,-1090 542,-1090 542,-1148"></polygon>
+<text text-anchor="middle" x="495" y="-1122.8" font-family="Times New Roman,serif" font-size="14.00">FullyConnected</text>
+<text text-anchor="middle" x="495" y="-1107.8" font-family="Times New Roman,serif" font-size="14.00">100</text>
+</g>
+<!-- fc1&#45;&gt;flatten1 -->
+<g id="edge18" class="edge"><title>fc1-&gt;flatten1</title>
+<path fill="none" stroke="black" d="M495,-1079.58C495,-1066.28 495,-1051.63 495,-1039.3"></path>
+<polygon fill="black" stroke="black" points="495,-1089.89 490.5,-1079.89 495,-1084.89 495,-1079.89 495,-1079.89 495,-1079.89 495,-1084.89 499.5,-1079.89 495,-1089.89 495,-1089.89"></polygon>
+<text text-anchor="middle" x="505.5" y="-1060.8" font-family="Times New Roman,serif" font-size="14.00">960</text>
+</g>
+<!-- batchnorm6_gamma -->
+<g id="node20" class="node"><title>batchnorm6_gamma</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="607" cy="-1119" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="607" y="-1115.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm6_gamma</text>
+</g>
+<!-- batchnorm6_beta -->
+<g id="node21" class="node"><title>batchnorm6_beta</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="719" cy="-1119" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="719" y="-1115.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm6_beta</text>
+</g>
+<!-- batchnorm6_moving_mean -->
+<g id="node22" class="node"><title>batchnorm6_moving_mean</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="831" cy="-1119" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="831" y="-1115.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm6_moving_mean</text>
+</g>
+<!-- batchnorm6_moving_var -->
+<g id="node23" class="node"><title>batchnorm6_moving_var</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="943" cy="-1119" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="943" y="-1115.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm6_moving_var</text>
+</g>
+<!-- batchnorm6 -->
+<g id="node24" class="node"><title>batchnorm6</title>
+<polygon fill="#bebada" stroke="black" points="766,-1257 672,-1257 672,-1199 766,-1199 766,-1257"></polygon>
+<text text-anchor="middle" x="719" y="-1224.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm6</text>
+</g>
+<!-- batchnorm6&#45;&gt;fc1 -->
+<g id="edge19" class="edge"><title>batchnorm6-&gt;fc1</title>
+<path fill="none" stroke="black" d="M662.395,-1200.8C629.74,-1185.58 587.952,-1165.92 551,-1148 548.066,-1146.58 545.051,-1145.1 542.013,-1143.61"></path>
+<polygon fill="black" stroke="black" points="671.786,-1205.17 660.821,-1205.03 667.253,-1203.06 662.72,-1200.95 662.72,-1200.95 662.72,-1200.95 667.253,-1203.06 664.619,-1196.87 671.786,-1205.17 671.786,-1205.17"></polygon>
+<text text-anchor="middle" x="631.5" y="-1169.8" font-family="Times New Roman,serif" font-size="14.00">100</text>
+</g>
+<!-- batchnorm6&#45;&gt;batchnorm6_gamma -->
+<g id="edge20" class="edge"><title>batchnorm6-&gt;batchnorm6_gamma</title>
+<path fill="none" stroke="black" d="M682.221,-1191.86C665.781,-1176.16 646.826,-1158.05 632.057,-1143.94"></path>
+<polygon fill="black" stroke="black" points="689.573,-1198.89 679.234,-1195.23 685.958,-1195.43 682.343,-1191.98 682.343,-1191.98 682.343,-1191.98 685.958,-1195.43 685.451,-1188.73 689.573,-1198.89 689.573,-1198.89"></polygon>
+</g>
+<!-- batchnorm6&#45;&gt;batchnorm6_beta -->
+<g id="edge21" class="edge"><title>batchnorm6-&gt;batchnorm6_beta</title>
+<path fill="none" stroke="black" d="M719,-1188.58C719,-1175.28 719,-1160.63 719,-1148.3"></path>
+<polygon fill="black" stroke="black" points="719,-1198.89 714.5,-1188.89 719,-1193.89 719,-1188.89 719,-1188.89 719,-1188.89 719,-1193.89 723.5,-1188.89 719,-1198.89 719,-1198.89"></polygon>
+</g>
+<!-- batchnorm6&#45;&gt;batchnorm6_moving_mean -->
+<g id="edge22" class="edge"><title>batchnorm6-&gt;batchnorm6_moving_mean</title>
+<path fill="none" stroke="black" d="M755.779,-1191.86C772.219,-1176.16 791.174,-1158.05 805.943,-1143.94"></path>
+<polygon fill="black" stroke="black" points="748.427,-1198.89 752.549,-1188.73 752.042,-1195.43 755.657,-1191.98 755.657,-1191.98 755.657,-1191.98 752.042,-1195.43 758.766,-1195.23 748.427,-1198.89 748.427,-1198.89"></polygon>
+</g>
+<!-- batchnorm6&#45;&gt;batchnorm6_moving_var -->
+<g id="edge23" class="edge"><title>batchnorm6-&gt;batchnorm6_moving_var</title>
+<path fill="none" stroke="black" d="M775.605,-1200.8C808.26,-1185.58 850.048,-1165.92 887,-1148 893.553,-1144.82 900.511,-1141.39 907.214,-1138.05"></path>
+<polygon fill="black" stroke="black" points="766.214,-1205.17 773.381,-1196.87 770.747,-1203.06 775.28,-1200.95 775.28,-1200.95 775.28,-1200.95 770.747,-1203.06 777.179,-1205.03 766.214,-1205.17 766.214,-1205.17"></polygon>
+</g>
+<!-- relu_f1 -->
+<g id="node25" class="node"><title>relu_f1</title>
+<polygon fill="#ffffb3" stroke="black" points="766,-1366 672,-1366 672,-1308 766,-1308 766,-1366"></polygon>
+<text text-anchor="middle" x="719" y="-1340.8" font-family="Times New Roman,serif" font-size="14.00">Activation</text>
+<text text-anchor="middle" x="719" y="-1325.8" font-family="Times New Roman,serif" font-size="14.00">relu</text>
+</g>
+<!-- relu_f1&#45;&gt;batchnorm6 -->
+<g id="edge24" class="edge"><title>relu_f1-&gt;batchnorm6</title>
+<path fill="none" stroke="black" d="M719,-1297.58C719,-1284.28 719,-1269.63 719,-1257.3"></path>
+<polygon fill="black" stroke="black" points="719,-1307.89 714.5,-1297.89 719,-1302.89 719,-1297.89 719,-1297.89 719,-1297.89 719,-1302.89 723.5,-1297.89 719,-1307.89 719,-1307.89"></polygon>
+<text text-anchor="middle" x="729.5" y="-1278.8" font-family="Times New Roman,serif" font-size="14.00">100</text>
+</g>
+<!-- fc2 -->
+<g id="node26" class="node"><title>fc2</title>
+<polygon fill="#fb8072" stroke="black" points="766,-1475 672,-1475 672,-1417 766,-1417 766,-1475"></polygon>
+<text text-anchor="middle" x="719" y="-1449.8" font-family="Times New Roman,serif" font-size="14.00">FullyConnected</text>
+<text text-anchor="middle" x="719" y="-1434.8" font-family="Times New Roman,serif" font-size="14.00">100</text>
+</g>
+<!-- fc2&#45;&gt;relu_f1 -->
+<g id="edge25" class="edge"><title>fc2-&gt;relu_f1</title>
+<path fill="none" stroke="black" d="M719,-1406.58C719,-1393.28 719,-1378.63 719,-1366.3"></path>
+<polygon fill="black" stroke="black" points="719,-1416.89 714.5,-1406.89 719,-1411.89 719,-1406.89 719,-1406.89 719,-1406.89 719,-1411.89 723.5,-1406.89 719,-1416.89 719,-1416.89"></polygon>
+<text text-anchor="middle" x="729.5" y="-1387.8" font-family="Times New Roman,serif" font-size="14.00">100</text>
+</g>
+<!-- batchnorm7_gamma -->
+<g id="node27" class="node"><title>batchnorm7_gamma</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="831" cy="-1446" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="831" y="-1442.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm7_gamma</text>
+</g>
+<!-- batchnorm7_beta -->
+<g id="node28" class="node"><title>batchnorm7_beta</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="943" cy="-1446" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="943" y="-1442.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm7_beta</text>
+</g>
+<!-- batchnorm7_moving_mean -->
+<g id="node29" class="node"><title>batchnorm7_moving_mean</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="1055" cy="-1446" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="1055" y="-1442.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm7_moving_mean</text>
+</g>
+<!-- batchnorm7_moving_var -->
+<g id="node30" class="node"><title>batchnorm7_moving_var</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="1167" cy="-1446" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="1167" y="-1442.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm7_moving_var</text>
+</g>
+<!-- batchnorm7 -->
+<g id="node31" class="node"><title>batchnorm7</title>
+<polygon fill="#bebada" stroke="black" points="990,-1584 896,-1584 896,-1526 990,-1526 990,-1584"></polygon>
+<text text-anchor="middle" x="943" y="-1551.3" font-family="Times New Roman,serif" font-size="14.00">batchnorm7</text>
+</g>
+<!-- batchnorm7&#45;&gt;fc2 -->
+<g id="edge26" class="edge"><title>batchnorm7-&gt;fc2</title>
+<path fill="none" stroke="black" d="M886.395,-1527.8C853.74,-1512.58 811.952,-1492.92 775,-1475 772.066,-1473.58 769.051,-1472.1 766.013,-1470.61"></path>
+<polygon fill="black" stroke="black" points="895.786,-1532.17 884.821,-1532.03 891.253,-1530.06 886.72,-1527.95 886.72,-1527.95 886.72,-1527.95 891.253,-1530.06 888.619,-1523.87 895.786,-1532.17 895.786,-1532.17"></polygon>
+<text text-anchor="middle" x="855.5" y="-1496.8" font-family="Times New Roman,serif" font-size="14.00">100</text>
+</g>
+<!-- batchnorm7&#45;&gt;batchnorm7_gamma -->
+<g id="edge27" class="edge"><title>batchnorm7-&gt;batchnorm7_gamma</title>
+<path fill="none" stroke="black" d="M906.221,-1518.86C889.781,-1503.16 870.826,-1485.05 856.057,-1470.94"></path>
+<polygon fill="black" stroke="black" points="913.573,-1525.89 903.234,-1522.23 909.958,-1522.43 906.343,-1518.98 906.343,-1518.98 906.343,-1518.98 909.958,-1522.43 909.451,-1515.73 913.573,-1525.89 913.573,-1525.89"></polygon>
+</g>
+<!-- batchnorm7&#45;&gt;batchnorm7_beta -->
+<g id="edge28" class="edge"><title>batchnorm7-&gt;batchnorm7_beta</title>
+<path fill="none" stroke="black" d="M943,-1515.58C943,-1502.28 943,-1487.63 943,-1475.3"></path>
+<polygon fill="black" stroke="black" points="943,-1525.89 938.5,-1515.89 943,-1520.89 943,-1515.89 943,-1515.89 943,-1515.89 943,-1520.89 947.5,-1515.89 943,-1525.89 943,-1525.89"></polygon>
+</g>
+<!-- batchnorm7&#45;&gt;batchnorm7_moving_mean -->
+<g id="edge29" class="edge"><title>batchnorm7-&gt;batchnorm7_moving_mean</title>
+<path fill="none" stroke="black" d="M979.779,-1518.86C996.219,-1503.16 1015.17,-1485.05 1029.94,-1470.94"></path>
+<polygon fill="black" stroke="black" points="972.427,-1525.89 976.549,-1515.73 976.042,-1522.43 979.657,-1518.98 979.657,-1518.98 979.657,-1518.98 976.042,-1522.43 982.766,-1522.23 972.427,-1525.89 972.427,-1525.89"></polygon>
+</g>
+<!-- batchnorm7&#45;&gt;batchnorm7_moving_var -->
+<g id="edge30" class="edge"><title>batchnorm7-&gt;batchnorm7_moving_var</title>
+<path fill="none" stroke="black" d="M999.605,-1527.8C1032.26,-1512.58 1074.05,-1492.92 1111,-1475 1117.55,-1471.82 1124.51,-1468.39 1131.21,-1465.05"></path>
+<polygon fill="black" stroke="black" points="990.214,-1532.17 997.381,-1523.87 994.747,-1530.06 999.28,-1527.95 999.28,-1527.95 999.28,-1527.95 994.747,-1530.06 1001.18,-1532.03 990.214,-1532.17 990.214,-1532.17"></polygon>
+</g>
+<!-- relu_f2 -->
+<g id="node32" class="node"><title>relu_f2</title>
+<polygon fill="#ffffb3" stroke="black" points="990,-1693 896,-1693 896,-1635 990,-1635 990,-1693"></polygon>
+<text text-anchor="middle" x="943" y="-1667.8" font-family="Times New Roman,serif" font-size="14.00">Activation</text>
+<text text-anchor="middle" x="943" y="-1652.8" font-family="Times New Roman,serif" font-size="14.00">relu</text>
+</g>
+<!-- relu_f2&#45;&gt;batchnorm7 -->
+<g id="edge31" class="edge"><title>relu_f2-&gt;batchnorm7</title>
+<path fill="none" stroke="black" d="M943,-1624.58C943,-1611.28 943,-1596.63 943,-1584.3"></path>
+<polygon fill="black" stroke="black" points="943,-1634.89 938.5,-1624.89 943,-1629.89 943,-1624.89 943,-1624.89 943,-1624.89 943,-1629.89 947.5,-1624.89 943,-1634.89 943,-1634.89"></polygon>
+<text text-anchor="middle" x="953.5" y="-1605.8" font-family="Times New Roman,serif" font-size="14.00">100</text>
+</g>
+<!-- fc3 -->
+<g id="node33" class="node"><title>fc3</title>
+<polygon fill="#fb8072" stroke="black" points="990,-1802 896,-1802 896,-1744 990,-1744 990,-1802"></polygon>
+<text text-anchor="middle" x="943" y="-1776.8" font-family="Times New Roman,serif" font-size="14.00">FullyConnected</text>
+<text text-anchor="middle" x="943" y="-1761.8" font-family="Times New Roman,serif" font-size="14.00">10</text>
+</g>
+<!-- fc3&#45;&gt;relu_f2 -->
+<g id="edge32" class="edge"><title>fc3-&gt;relu_f2</title>
+<path fill="none" stroke="black" d="M943,-1733.58C943,-1720.28 943,-1705.63 943,-1693.3"></path>
+<polygon fill="black" stroke="black" points="943,-1743.89 938.5,-1733.89 943,-1738.89 943,-1733.89 943,-1733.89 943,-1733.89 943,-1738.89 947.5,-1733.89 943,-1743.89 943,-1743.89"></polygon>
+<text text-anchor="middle" x="953.5" y="-1714.8" font-family="Times New Roman,serif" font-size="14.00">100</text>
+</g>
+<!-- label -->
+<g id="node34" class="node"><title>label</title>
+<ellipse fill="#8dd3c7" stroke="black" cx="1055" cy="-1773" rx="47" ry="29"></ellipse>
+<text text-anchor="middle" x="1055" y="-1769.3" font-family="Times New Roman,serif" font-size="14.00">label</text>
+</g>
+<!-- softmaxoutput1 -->
+<g id="node35" class="node"><title>softmaxoutput1</title>
+<polygon fill="#fccde5" stroke="black" points="1066,-1911 972,-1911 972,-1853 1066,-1853 1066,-1911"></polygon>
+<text text-anchor="middle" x="1019" y="-1878.3" font-family="Times New Roman,serif" font-size="14.00">softmaxoutput1</text>
+</g>
+<!-- softmaxoutput1&#45;&gt;fc3 -->
+<g id="edge33" class="edge"><title>softmaxoutput1-&gt;fc3</title>
+<path fill="none" stroke="black" d="M993.108,-1844.55C983.302,-1830.74 972.294,-1815.24 963.099,-1802.3"></path>
+<polygon fill="black" stroke="black" points="999.032,-1852.89 989.572,-1847.34 996.137,-1848.81 993.241,-1844.73 993.241,-1844.73 993.241,-1844.73 996.137,-1848.81 996.91,-1842.13 999.032,-1852.89 999.032,-1852.89"></polygon>
+<text text-anchor="middle" x="993" y="-1823.8" font-family="Times New Roman,serif" font-size="14.00">10</text>
+</g>
+<!-- softmaxoutput1&#45;&gt;label -->
+<g id="edge34" class="edge"><title>softmaxoutput1-&gt;label</title>
+<path fill="none" stroke="black" d="M1031.71,-1843.21C1036.33,-1829.48 1041.46,-1814.24 1045.73,-1801.56"></path>
+<polygon fill="black" stroke="black" points="1028.46,-1852.89 1027.38,-1841.97 1030.05,-1848.15 1031.65,-1843.41 1031.65,-1843.41 1031.65,-1843.41 1030.05,-1848.15 1035.91,-1844.84 1028.46,-1852.89 1028.46,-1852.89"></polygon>
+</g>
+</g>
+</svg></div></div></div></div><div class="btn btn-default output_collapsed" title="click to expand output" style="display: none;">. . .</div></div></div><div class="cell code_cell unselected rendered" tabindex="2"><div class="input"><div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div><div class="inner_cell"><div class="ctb_hideshow"><div class="celltoolbar"></div></div><div class="input_area"><div class="CodeMirror cm-s-ipython"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 5.58594px; left: 5.58594px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; min-width: 3px; margin-bottom: -21px; border-right-width: 9px; min-height: 28px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 0px; top: 0px; height: 16.25px;">&nbsp;</div></div><div class="CodeMirror-code"><pre class=" CodeMirror-line "><span style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 9px; width: 1px; top: 28px;"></div><div class="CodeMirror-gutters" style="display: none; height: 37px;"></div></div></div></div></div></div><div class="widget-area" style="display: none;"><div class="prompt"><button class="close">×</button></div><div class="widget-subarea"></div></div><div class="output_wrapper"><div class="out_prompt_overlay prompt" title="click to expand output; double click to hide output" style="display: none;"></div><div class="output" style="display: none;"></div><div class="btn btn-default output_collapsed" title="click to expand output" style="display: none;">. . .</div></div></div></div><div class="end_space"></div></div>
+        <div id="tooltip" class="ipython_tooltip" style="display:none"><div class="tooltipbuttons"><a href="http://localhost:8889/notebooks/Untitled.ipynb#" role="button" class="ui-button"><span class="ui-icon ui-icon-close">Close</span></a><a href="http://localhost:8889/notebooks/Untitled.ipynb#" class="ui-corner-all" role="button" id="expanbutton" title="Grow the tooltip vertically (press shift-tab twice)"><span class="ui-icon ui-icon-plus">Expand</span></a><a href="http://localhost:8889/notebooks/Untitled.ipynb#" role="button" class="ui-button" title="show the current docstring in pager (press shift-tab 4 times)"><span class="ui-icon ui-icon-arrowstop-l-n">Open in Pager</span></a><a href="http://localhost:8889/notebooks/Untitled.ipynb#" role="button" class="ui-button" title="Tooltip will linger for 10 seconds while you type" style="display: none;"><span class="ui-icon ui-icon-clock">Close</span></a></div><div class="pretooltiparrow"></div><div class="tooltiptext smalltooltip"></div></div>
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+<div id="pager" class="ui-resizable">
+    <div id="pager-contents">
+        <div id="pager-container" class="container"></div>
+    </div>
+    <div id="pager-button-area"><a role="button" title="Open the pager in an external window" class="ui-button"><span class="ui-icon ui-icon-extlink"></span></a><a role="button" title="Close the pager" class="ui-button"><span class="ui-icon ui-icon-close"></span></a></div>
+<div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div></div>
+
+
+
+
+
+
+<script type="text/javascript">
+    sys_info = {"os_name": "nt", "platform": "Windows-8-6.2.9200", "default_encoding": "cp949", "notebook_path": "C:\\WinPython-64bit-2.7.10.3\\python-2.7.10.amd64\\lib\\site-packages\\notebook", "sys_platform": "win32", "sys_version": "2.7.10 (default, May 23 2015, 09:44:00) [MSC v.1500 64 bit (AMD64)]", "notebook_version": "4.0.6", "commit_source": "", "commit_hash": "", "sys_executable": "C:\\WinPython-64bit-2.7.10.3\\python-2.7.10.amd64\\python.exe"};
+</script>
+
+<script src="./Untitled_files/encoding.js.다운로드" charset="utf-8"></script>
+
+<script src="./Untitled_files/main.min.js.다운로드" charset="utf-8"></script>
+
+
+
+
+
+<div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal;"></div></div></body></html>

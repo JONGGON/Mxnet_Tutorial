@@ -1,0 +1,17 @@
+digraph plot {
+	data [label=data fillcolor="#8dd3c7" fixedsize=true height=0.8034 shape=oval style=filled width=1.3]
+	kexpand_dims0 [label=kexpand_dims0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	centroid [label=centroid fillcolor="#8dd3c7" fixedsize=true height=0.8034 shape=oval style=filled width=1.3]
+	kexpand_dims1 [label=kexpand_dims1 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	kbroadcast_sub0 [label=kbroadcast_sub0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	ksquare0 [label=ksquare0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	ksum0 [label=ksum0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	kargmin0 [label=kargmin0 fillcolor="#fccde5" fixedsize=true height=0.8034 shape=box style=filled width=1.3]
+	kexpand_dims0 -> data [label=2 arrowtail=open dir=back]
+	kexpand_dims1 -> centroid [label=2 arrowtail=open dir=back]
+	kbroadcast_sub0 -> kexpand_dims0 [label="5000x2" arrowtail=open dir=back]
+	kbroadcast_sub0 -> kexpand_dims1 [label="1x2" arrowtail=open dir=back]
+	ksquare0 -> kbroadcast_sub0 [label="5000x2" arrowtail=open dir=back]
+	ksum0 -> ksquare0 [label="5000x2" arrowtail=open dir=back]
+	kargmin0 -> ksum0 [label=5000 arrowtail=open dir=back]
+}

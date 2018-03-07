@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="215abea3-9f7c-4b40-b04e-7cdda2730a03" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="76">
+              <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="38">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+=======
+            <state relative-caret-position="76">
+              <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Network.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Network.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="863">
+              <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="658">
+              <caret line="108" column="72" lean-forward="true" selection-start-line="108" selection-start-column="72" selection-end-line="108" selection-end-column="72" />
+=======
+            <state relative-caret-position="466">
+              <caret line="188" column="65" lean-forward="false" selection-start-line="188" selection-start-column="65" selection-end-line="188" selection-end-column="65" />
+>>>>>>> 7cacc891441dd4525a8ca64293ddee15861231a2
+=======
+            <state relative-caret-position="285">
+              <caret line="174" column="64" lean-forward="false" selection-start-line="174" selection-start-column="64" selection-end-line="174" selection-end-column="64" />
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+=======
+            <state relative-caret-position="863">
+              <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+              <folding>
+                <element signature="e#24#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="io.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/io.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-428">
+              <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+=======
+      <file leaf-file-name="io.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/io.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="521" column="8" lean-forward="false" selection-start-line="521" selection-start-column="8" selection-end-line="521" selection-end-column="8" />
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 7cacc891441dd4525a8ca64293ddee15861231a2
+=======
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>eval_metric</find>
+      <find>figsize</find>
+      <find>mod.fit</find>
+<<<<<<< HEAD
+      <find>fit</find>
+      <find>random</find>
+      <find>optimizer</find>
+      <find>self._optimizer</find>
+<<<<<<< HEAD
+      <find>self.data</find>
+=======
+=======
+      <find>random</find>
+      <find>optimizer</find>
+      <find>self._optimizer</find>
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+      <find>ctx</find>
+      <find>data</find>
+      <find>self.for_training</find>
+      <find>for_training</find>
+      <find>set</find>
+      <find>SET_PARM</find>
+      <find>SET</find>
+<<<<<<< HEAD
+>>>>>>> 7cacc891441dd4525a8ca64293ddee15861231a2
+=======
+      <find>fit</find>
+      <find>self._exec_group.set_params</find>
+      <find>get_test_noise_data</find>
+      <find>self._exec_group</find>
+      <find>LABEL</find>
+      <find>batch.label</find>
+<<<<<<< HEAD
+      <find>save_weights</find>
+=======
+<<<<<<< HEAD
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+=======
+      <find>save_weights</find>
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.5-py2.7.egg/mxnet/module/base_module.py" />
+        <option value="$PROJECT_DIR$/data_download.py" />
+<<<<<<< HEAD
+=======
+        <option value="C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/base_module.py" />
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Network.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+    <option name="y" value="468" />
+    <option name="width" value="1764" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="x" value="360" />
+    <option name="width" value="1560" />
+=======
+    <option name="x" value="239" />
+    <option name="width" value="1681" />
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+=======
+    <option name="y" value="468" />
+    <option name="width" value="1764" />
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <pane id="Scope" />
+=======
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+      <pane id="Scratches" />
+=======
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generative Adversarial Network version1 with FullyConnected Neural Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Generative Adversarial Network version1 with FullyConnected Neural Network" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+<<<<<<< HEAD
+      <pane id="Scratches" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../basic/Mnist_FullyNeuralNetwork_mxnet with_LogisticRegressionOutput" />
+=======
+=======
+      <pane id="Scratches" />
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Predicting lotto numbers in regression analysis using mxnet version2" />
+=======
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../basic/Convolutional Neural Networks with SoftmaxOutput" />
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Predicting lotto numbers in regression analysis using mxnet version2" />
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="false" name="data_download" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Autoencoder Neural Networks with logisticRegressionOutput" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_download.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Autoencoder Neural Networks with logisticRegressionOutput" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Network" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Autoencoder Neural Networks with logisticRegressionOutput" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Network.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Autoencoder Neural Networks with logisticRegressionOutput" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Autoencoder Neural Networks with logisticRegressionOutput" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Autoencoder Neural Networks with logisticRegressionOutput" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Autoencoder Neural Networks with logisticRegressionOutput" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Autoencoder Neural Networks with logisticRegressionOutput" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Autoencoder Neural Networks with logisticRegressionOutput" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Autoencoder Neural Networks with logisticRegressionOutput" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.data_download" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Network" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Network" />
+        <item index="2" class="java.lang.String" itemvalue="Python.data_download" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="215abea3-9f7c-4b40-b04e-7cdda2730a03" name="Default" comment="" />
+      <created>1491976390905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1491976390905</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="0" y="468" width="1764" height="1040" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10697941" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <frame x="360" y="0" width="1560" height="1040" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.061528496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <frame x="239" y="0" width="1681" height="1040" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11231231" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+=======
+    <frame x="0" y="468" width="1764" height="1040" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10697941" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32473117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26559138" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3998441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25698924" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 7cacc891441dd4525a8ca64293ddee15861231a2
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2014">
+          <caret line="109" column="28" lean-forward="false" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="67" column="126" lean-forward="false" selection-start-line="67" selection-start-column="126" selection-end-line="67" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="126" lean-forward="false" selection-start-line="67" selection-start-column="126" selection-end-line="67" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="67" column="126" lean-forward="false" selection-start-line="67" selection-start-column="126" selection-end-line="67" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="67" column="126" lean-forward="false" selection-start-line="67" selection-start-column="126" selection-end-line="67" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="67" column="126" lean-forward="false" selection-start-line="67" selection-start-column="126" selection-end-line="67" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="126" lean-forward="false" selection-start-line="67" selection-start-column="126" selection-end-line="67" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="67" column="126" lean-forward="false" selection-start-line="67" selection-start-column="126" selection-end-line="67" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="58" lean-forward="false" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="67" column="126" lean-forward="false" selection-start-line="67" selection-start-column="126" selection-end-line="67" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="58" lean-forward="false" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="67" column="126" lean-forward="true" selection-start-line="67" selection-start-column="126" selection-end-line="67" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="58" lean-forward="true" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mnist_FullyNeuralNetwork_mxnet with_LogisticRegressionOutput/data_download.py" />
+    <entry file="file://$PROJECT_DIR$/../Mnist_FullyNeuralNetwork_mxnet with_LogisticRegressionOutput/main.py" />
+    <entry file="file://$PROJECT_DIR$/../Mnist_FullyNeuralNetwork_mxnet with_LogisticRegressionOutput/Network.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="1062" column="74" lean-forward="true" selection-start-line="1062" selection-start-column="74" selection-end-line="1062" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/__init__.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-671">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.5-py2.7.egg/mxnet/ndarray.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.5-py2.7.egg/mxnet/io.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.5-py2.7.egg/mxnet/module/base_module.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.5-py2.7.egg/mxnet/module/module.py" />
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.5-py2.7.egg/mxnet/module/executor_group.py" />
+<<<<<<< HEAD
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="412">
+          <caret line="870" column="4" lean-forward="false" selection-start-line="870" selection-start-column="4" selection-end-line="870" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.5-py2.7.egg/mxnet/module/executor_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="522" column="0" lean-forward="false" selection-start-line="522" selection-start-column="0" selection-end-line="522" selection-end-column="0" />
+=======
+        <state relative-caret-position="197">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+>>>>>>> 7cacc891441dd4525a8ca64293ddee15861231a2
+=======
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-828">
+          <caret line="462" column="4" lean-forward="false" selection-start-line="462" selection-start-column="4" selection-end-line="462" selection-end-column="4" />
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.5-py2.7.egg/mxnet/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+>>>>>>> 7cacc891441dd4525a8ca64293ddee15861231a2
+=======
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/base_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="292" column="8" lean-forward="false" selection-start-line="292" selection-start-column="8" selection-end-line="292" selection-end-column="8" />
+<<<<<<< HEAD
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/executor_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="514" column="0" lean-forward="false" selection-start-line="514" selection-start-column="0" selection-end-line="514" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+=======
+<<<<<<< HEAD
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/base_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="276">
+          <caret line="717" column="8" lean-forward="false" selection-start-line="717" selection-start-column="8" selection-end-line="717" selection-end-column="8" />
+=======
+        <state relative-caret-position="85">
+          <caret line="590" column="8" lean-forward="false" selection-start-line="590" selection-start-column="8" selection-end-line="590" selection-end-column="8" />
+>>>>>>> 7cacc891441dd4525a8ca64293ddee15861231a2
+=======
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/data_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+=======
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="297" column="16" lean-forward="true" selection-start-line="297" selection-start-column="16" selection-end-line="297" selection-end-column="16" />
+>>>>>>> 7cacc891441dd4525a8ca64293ddee15861231a2
+=======
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/executor_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="514" column="0" lean-forward="false" selection-start-line="514" selection-start-column="0" selection-end-line="514" selection-end-column="0" />
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/executor_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="514" column="0" lean-forward="false" selection-start-line="514" selection-start-column="0" selection-end-line="514" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="223">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="38">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.5-py2.7.egg/mxnet/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="102" column="8" lean-forward="false" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="547" column="8" lean-forward="false" selection-start-line="547" selection-start-column="8" selection-end-line="547" selection-end-column="8" />
+=======
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.5-py2.7.egg/mxnet/initializer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="198" column="23" lean-forward="true" selection-start-line="198" selection-start-column="23" selection-end-line="198" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.5-py2.7.egg/mxnet/module/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="614" column="0" lean-forward="false" selection-start-line="614" selection-start-column="0" selection-end-line="614" selection-end-column="0" />
+=======
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-428">
+          <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+>>>>>>> 7cacc891441dd4525a8ca64293ddee15861231a2
+=======
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/module.py">
+=======
+        <state relative-caret-position="223">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-64bit-2.7.10.3/python-2.7.10.amd64/Lib/site-packages/mxnet-0.9.4-py2.7.egg/mxnet/module/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="218">
+          <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+=======
+        <state relative-caret-position="220">
+          <caret line="547" column="8" lean-forward="false" selection-start-line="547" selection-start-column="8" selection-end-line="547" selection-end-column="8" />
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="863">
+          <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="658">
+          <caret line="108" column="72" lean-forward="true" selection-start-line="108" selection-start-column="72" selection-end-line="108" selection-end-column="72" />
+=======
+        <state relative-caret-position="466">
+          <caret line="188" column="65" lean-forward="false" selection-start-line="188" selection-start-column="65" selection-end-line="188" selection-end-column="65" />
+>>>>>>> 7cacc891441dd4525a8ca64293ddee15861231a2
+=======
+        <state relative-caret-position="285">
+          <caret line="174" column="64" lean-forward="false" selection-start-line="174" selection-start-column="64" selection-end-line="174" selection-end-column="64" />
+>>>>>>> 185de64a0cb4183ecd50086da379633d583f190e
+=======
+        <state relative-caret-position="863">
+          <caret line="121" column="29" lean-forward="false" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
+>>>>>>> a2704fc9b9bbb1fd1b9aec1b42c5991ff0aee843
+>>>>>>> 11e660f1b10ae5ad49908c6aebe012e37c6654d1
+          <folding>
+            <element signature="e#24#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

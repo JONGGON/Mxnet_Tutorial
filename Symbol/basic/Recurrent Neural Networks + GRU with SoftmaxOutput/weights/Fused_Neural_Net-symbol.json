@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "op": "null", 
+      "name": "data", 
+      "inputs": []
+    }, 
+    {
+      "op": "transpose", 
+      "name": "transpose0", 
+      "attr": {"axes": "(1, 0, 2)"}, 
+      "inputs": [[0, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "gru_0parameters", 
+      "attr": {"__init__": "[\"fusedrnn\", {\"num_hidden\": 100, \"mode\": \"gru\", \"forget_bias\": 1.0, \"num_layers\": 1, \"bidirectional\": false, \"init\": null}]"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "_zeros", 
+      "name": "gru_0begin_state_0", 
+      "attr": {
+        "__layout__": "LNC", 
+        "dtype": "float32", 
+        "shape": "(1, 0, 100)"
+      }, 
+      "inputs": []
+    }, 
+    {
+      "op": "RNN", 
+      "name": "gru_0rnn", 
+      "attr": {
+        "__layout__": "LNC", 
+        "bidirectional": "False", 
+        "mode": "gru", 
+        "num_layers": "1", 
+        "p": "0.0", 
+        "state_outputs": "True", 
+        "state_size": "100"
+      }, 
+      "inputs": [[1, 0, 0], [2, 0, 0], [3, 0, 0]]
+    }, 
+    {
+      "op": "SliceChannel", 
+      "name": "split0", 
+      "attr": {
+        "axis": "0", 
+        "num_outputs": "28", 
+        "squeeze_axis": "1"
+      }, 
+      "inputs": [[4, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "affine1_weight", 
+      "attr": {"num_hidden": "100"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "affine1_bias", 
+      "attr": {"num_hidden": "100"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "affine1", 
+      "attr": {"num_hidden": "100"}, 
+      "inputs": [[5, 27, 0], [6, 0, 0], [7, 0, 0]]
+    }, 
+    {
+      "op": "Activation", 
+      "name": "sigmoid1", 
+      "attr": {"act_type": "sigmoid"}, 
+      "inputs": [[8, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "affine2_weight", 
+      "attr": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "null", 
+      "name": "affine2_bias", 
+      "attr": {"num_hidden": "10"}, 
+      "inputs": []
+    }, 
+    {
+      "op": "FullyConnected", 
+      "name": "affine2", 
+      "attr": {"num_hidden": "10"}, 
+      "inputs": [[9, 0, 0], [10, 0, 0], [11, 0, 0]]
+    }, 
+    {
+      "op": "null", 
+      "name": "label", 
+      "inputs": []
+    }, 
+    {
+      "op": "SoftmaxOutput", 
+      "name": "softmax", 
+      "inputs": [[12, 0, 0], [13, 0, 0]]
+    }
+  ], 
+  "arg_nodes": [0, 2, 6, 7, 10, 11, 13], 
+  "node_row_ptr": [
+    0, 
+    1, 
+    2, 
+    3, 
+    4, 
+    6, 
+    34, 
+    35, 
+    36, 
+    37, 
+    38, 
+    39, 
+    40, 
+    41, 
+    42, 
+    43
+  ], 
+  "heads": [[14, 0, 0]], 
+  "attrs": {"mxnet_version": ["int", 1100]}
+}
